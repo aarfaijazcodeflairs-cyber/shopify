@@ -1,0 +1,109 @@
+<div class="progress-tracker">
+  <div class="progress-line"></div>
+
+  <div class="step {% if section.settings.active_step > 1 %}completed{% endif %} {% if section.settings.active_step == 1 %}active{% endif %}">
+    <div class="circle">1</div>
+    <p class="title">{{ section.settings.step1_title }}</p>
+    <p class="desc">{{ section.settings.step1_desc }}</p>
+  </div>
+
+  <div class="step {% if section.settings.active_step > 2 %}completed{% endif %} {% if section.settings.active_step == 2 %}active{% endif %}">
+    <div class="circle">2</div>
+    <p class="title">{{ section.settings.step2_title }}</p>
+    <p class="desc">{{ section.settings.step2_desc }}</p>
+  </div>
+
+  <div class="step {% if section.settings.active_step > 3 %}completed{% endif %} {% if section.settings.active_step == 3 %}active{% endif %}">
+    <div class="circle">3</div>
+    <p class="title">{{ section.settings.step3_title }}</p>
+    <p class="desc">{{ section.settings.step3_desc }}</p>
+  </div>
+
+  <div class="step {% if section.settings.active_step > 4 %}completed{% endif %} {% if section.settings.active_step == 4 %}active{% endif %}">
+    <div class="circle">4</div>
+    <p class="title">{{ section.settings.step4_title }}</p>
+    <p class="desc">{{ section.settings.step4_desc }}</p>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Snus Mart Tracker",
+  "class": "SnusMartTracker",
+  "settings": [
+    {
+      "type": "range",
+      "id": "active_step",
+      "label": "Active Step",
+      "min": 1,
+      "max": 4,
+      "default": 1
+    },
+    {
+      "type": "text",
+      "id": "step1_title",
+      "label": "Step 1 Title",
+      "default": "Choose products"
+    },
+    {
+      "type": "text",
+      "id": "step1_desc",
+      "label": "Step 1 Description",
+      "default": "Select your desired products and add them to the cart"
+    },
+    {
+      "type": "text",
+      "id": "step2_title",
+      "label": "Step 2 Title",
+      "default": "Confirm & Pay"
+    },
+    {
+      "type": "text",
+      "id": "step2_desc",
+      "label": "Step 2 Description",
+      "default": "Add your payment details and pay for your order!"
+    },
+    {
+      "type": "text",
+      "id": "step3_title",
+      "label": "Step 3 Title",
+      "default": "Tracking & Invoice"
+    },
+    {
+      "type": "text",
+      "id": "step3_desc",
+      "label": "Step 3 Description",
+      "default": "You'll receive a tracking link & invoice on mail"
+    },
+    {
+      "type": "text",
+      "id": "step4_title",
+      "label": "Step 4 Title",
+      "default": "Woohoo!"
+    },
+    {
+      "type": "text",
+      "id": "step4_desc",
+      "label": "Step 4 Description",
+      "default": "Your package has been delivered!"
+    }
+  ],
+   "presets": [
+    {
+      "name": "Snus Mart Tracker",
+      "category": "Custom",
+      "settings": {
+        "active_step": 1,
+        "step1_title": "Choose products",
+        "step1_desc": "Select your desired products and add them to the cart",
+        "step2_title": "Confirm & Pay",
+        "step2_desc": "Add your payment details and pay for your order!",
+        "step3_title": "Tracking & Invoice",
+        "step3_desc": "You'll receive a tracking link & invoice on mail",
+        "step4_title": "Woohoo!",
+        "step4_desc": "Your package has been delivered!"
+      }
+    }
+  ]
+}
+{% endschema %}

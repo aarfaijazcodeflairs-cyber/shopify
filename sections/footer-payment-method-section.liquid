@@ -1,0 +1,149 @@
+<div class="footer-wrapper">
+  <!-- About Us -->
+  <div class="about-us-main">
+       <h2>{{section.settings.about_us_text_1}}</h2>
+       <p>{{section.settings.about_us_text_2}}</p>
+  </div>
+ <!-- Information -->
+  <div class="information-main">
+       <h2> {{section.settings.information_text}} </h2>
+    <div class="information-menu">
+      {% if section.settings.information_1_list != blank %}
+       {% assign menu = linklists[section.settings.information_1_list].links %}
+       {% for item in menu %}
+       <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
+       {% endif %}
+    </div>
+  </div>
+   <!-- Blog -->
+      <div class="blog-main">
+      <h2> {{section.settings.Blog_text}} </h2>
+    <div class="blog-menu">
+      {% if section.settings.Blog_1_list != blank %}
+       {% assign menu = linklists[section.settings.Blog_1_list].links %}
+       {% for item in menu %}
+       <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
+       {% endif %}
+    </div>
+  </div>
+    <!-- Payment Method -->
+     <div class="payment-method-main"> 
+      <div class="payment-section">
+        <h2> {{section.settings.Payment_text}} </h2>
+        <div  class="payment-image-main-section">
+          <div class="payment-image"> <img  src=" {{ section.settings.payment_img_1 |  image_url: width: 300 }} " > </div>
+              <div  class="payment-image"> <img  src=" {{ section.settings.payment_img_2 |  image_url: width: 300 }} " > </div>
+                  <div class="payment-image"> <img  src=" {{ section.settings.payment_img_3 |  image_url: width: 300 }} " > </div>
+                      <div  class="payment-image"> <img  src=" {{ section.settings.payment_img_4 |  image_url: width: 300 }} " > </div>
+        </div>
+      </div> 
+          <!-- Delivery With -->
+      <div  class="delivery-with">
+        <h2> {{ section.settings.Delivery_text }} </h2>
+         <div  class="delivery-image-main-section">
+          <div class="delivery-image"> <img  src=" {{ section.settings.Delivery_img_1 |  image_url: width: 300 }} " > </div>
+              <div  class="delivery-image"> <img  src=" {{ section.settings.Delivery_img_2|  image_url: width: 300 }} " > </div>
+              </div>
+      </div>
+
+       <!-- Trust Pilot-->
+        <div  class="Trustpilot">
+                <p> {{ section.settings.Trustpilot_text }} </p>
+                <div  class="trustpilot-image"> <img  src=" {{ section.settings.Trust_Pilot_img_2 |  image_url: width: 300 }} " > </div>
+        </div>
+
+
+     </div>
+
+
+
+
+</div>
+
+
+{% schema %}
+{
+  "name": "Footer Payment",
+   "class": "footerpayment",
+  "settings": [
+    {   "type": "text",
+    "id": "about_us_text_1",
+        "label": "heading"
+    },
+     {   "type": "richtext",
+        "id":"about_us_text_2",
+        "label": "Pargraph"
+    },
+      {   "type": "text",
+           "id": "information_text",
+        "label": "heading"
+    },
+    {"type": "link_list",
+      "id": "information_1_list",
+      "label": "Enter Link"
+    },
+    {   "type": "text",
+           "id": "Blog_text",
+        "label": "heading"
+    },
+    {"type": "link_list",
+      "id": "Blog_1_list",
+      "label": "Enter Link"
+    },
+       {   "type": "text",
+           "id": "Payment_text",
+        "label": "heading"
+    },
+    {    "type": "image_picker",
+           "id": "payment_img_1",
+           "label": "Select Image"
+    },
+     {    "type": "image_picker",
+           "id": "payment_img_2",
+           "label": "Select Image"
+    },
+     {    "type": "image_picker",
+           "id": "payment_img_3",
+           "label": "Select Image"
+    },
+      {    "type": "image_picker",
+           "id": "payment_img_4",
+           "label": "Select Image"
+    },
+      
+         {   "type": "text",
+           "id": "Delivery_text",
+        "label": "heading"
+    },
+       {    "type": "image_picker",
+           "id": "Delivery_img_1",
+           "label": "Select Image"
+    },
+     {    "type": "image_picker",
+           "id": "Delivery_img_2",
+           "label": "Select Image"
+    },
+          {   "type": "richtext",
+           "id": "Trustpilot_text",
+        "label": "Paragraph"
+    },
+        {    "type": "image_picker",
+           "id": "Trust_Pilot_img_2",
+           "label": "Select Image"
+    }
+
+
+
+
+
+    
+    ],
+    "presets": [
+      {
+        "name": "Footer Payment"
+      }
+    ]
+}
+{% endschema %}

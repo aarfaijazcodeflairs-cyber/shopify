@@ -1,0 +1,6 @@
+development:
+  password: shptka_eca0d2651a56be1aebb3c4100003450b
+  theme_id: "147623280825"
+  store: arfaejaz-developement.myshopify.com
+  ignore_files:
+  - config/settings_data.json

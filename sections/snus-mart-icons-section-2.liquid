@@ -1,0 +1,97 @@
+<div  class="main-services-icon-section">
+   <div class="services-icon1">
+    <div class="services-icon-image1">
+        <img   src="{{section.settings.snus_mart_icon_section2_image_1 | image_url: width: 500 }}" alt="icon">
+    </div>
+    <div  class="services-icon-text1">
+        <p> {{section.settings.snus_mart_icon_section2_text_1}} </p>
+    </div>
+   </div>
+
+      <div class="services-icon1">
+    <div class="services-icon-image1">
+         <img   src="{{section.settings.snus_mart_icon_section2_image_2 | image_url: width: 500 }}" alt="icon">
+    </div>
+    <div  class="services-icon-text2">
+        <p> {{section.settings.snus_mart_icon_section2_text_2}} </p>   
+    </div>
+   </div>
+
+      <div class="services-icon1">
+    <div class="services-icon-image1">
+        <img   src="{{section.settings.snus_mart_icon_section2_image_3 | image_url: width: 500 }}" alt="icon">
+    </div>
+    <div  class="services-icon-text3">
+        <p> {{section.settings.snus_mart_icon_section2_text_3}} </p>   
+    </div>
+   </div>
+
+      <div class="services-icon1">
+    <div class="services-icon-image1">
+        <img   src="{{section.settings.snus_mart_icon_section2_image_4 | image_url: width: 500 }}" alt="icon">
+    </div>
+    <div  class="services-icon-text4">
+         <p> {{section.settings.snus_mart_icon_section2_text_4}} </p>   
+    </div>
+   </div>
+</div>
+
+
+
+{% schema %}
+{
+     "name": "snus mart icons 2",
+    "class": "snusmarticons2",
+    "settings": [
+
+          { "type": "image_picker",
+            "id": "snus_mart_icon_section2_image_1",
+            "label": "Please select image"
+            },
+            {"type": "richtext",
+            "id": "snus_mart_icon_section2_text_1",
+            "label": "Please enter text"
+            },
+                 { "type": "image_picker",
+            "id": "snus_mart_icon_section2_image_2",
+            "label": "Please select image"
+            },
+            {"type": "richtext",
+            "id": "snus_mart_icon_section2_text_2",
+            "label": "Please enter text"
+            },
+           { "type": "image_picker",
+            "id": "snus_mart_icon_section2_image_3",
+            "label": "Please select image"
+            },
+            {"type": "richtext",
+            "id": "snus_mart_icon_section2_text_3",
+            "label": "Please enter text"
+            },
+                 { "type": "image_picker",
+            "id": "snus_mart_icon_section2_image_4",
+            "label": "Please select image"
+            },
+            {"type": "richtext",
+            "id": "snus_mart_icon_section2_text_4",
+            "label": "Please enter text"
+            }
+        ],
+        "presets": [
+            {
+                "name": "snus mart icons 2",
+            "settings": {
+                "snus_mart_icon_section2_image_1":"",
+                "snus_mart_icon_section2_text_1":"",
+                "snus_mart_icon_section2_image_2":"",
+                "snus_mart_icon_section2_text_2":"",
+                 "snus_mart_icon_section2_image_3":"",
+                  "snus_mart_icon_section2_text_3":"",
+                   "snus_mart_icon_section2_image_4":"",
+                   "snus_mart_icon_section2_text_4":""
+            }
+            }
+
+        ]
+}
+{% endschema %}

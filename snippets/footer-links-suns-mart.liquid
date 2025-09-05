@@ -1,0 +1,97 @@
+
+<div class="footer-payment-method-block">
+  {% for block in section.blocks %}
+    <div class="footer-custom-block">
+      {% if block.settings.heading_1 != blank %}
+        <h3 class="footer-custom-heading">{{ block.settings.heading_1}}</h3>
+      {% endif %}
+
+      <div class="footer-custom-logos">
+        {% if block.settings.image_1 != blank %}
+          <img src="{{ block.settings.image_1 | image_url: width: 60 }}" alt="{{ block.settings.heading }}">
+        {% endif %}
+        {% if block.settings.image_2 != blank %}
+          <img src="{{ block.settings.image_2 | image_url: width: 60 }}" alt="{{ block.settings.heading }}">
+        {% endif %}
+        {% if block.settings.image_3 != blank %}
+          <img src="{{ block.settings.image_3 | image_url: width: 60 }}" alt="{{ block.settings.heading }}">
+        {% endif %}
+        {% if block.settings.image_4 != blank %}
+          <img src="{{ block.settings.image_4 | image_url: width: 60 }}" alt="{{ block.settings.heading }}">
+        {% endif %}
+      </div>
+
+      {% if block.settings.text_1 != blank %}
+        <p class="footer-custom-text">{{ block.settings.text_1 }}</p>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
+
+{% schema %}
+{
+  "name": "Footer",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "image_text_custom",
+      "name": "Image + Text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading_1",
+          "label": "Heading",
+          "default": "Payment Methods"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_1",
+          "label": "Logo 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_2",
+          "label": "Logo 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_3",
+          "label": "Logo 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_4",
+          "label": "Logo 4"
+        },
+        {
+          "type": "text",
+          "id": "text_1",
+          "label": "Optional Text"
+         
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "footer",
+      "category": "Footer",
+      "blocks": [
+        {
+          "type": "image_text_custom",
+          "settings": {
+               "heading_1": "Payment Methods",
+            "image_1": "",
+            "image_2": "",
+            "image_3": "",
+            "image_4": "",
+            "text_1": " "
+            
+              
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
