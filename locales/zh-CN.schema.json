@@ -54,6 +54,7 @@
       "name": "社交媒体",
       "settings": {
         "social_twitter_link": {
+<<<<<<< HEAD
           "label": "X / Twitter",
           "info": "https://x.com/shopify"
         },
@@ -88,6 +89,42 @@
         "social_vimeo_link": {
           "label": "Vimeo",
           "info": "https://vimeo.com/shopify"
+=======
+          "label": "X \/ Twitter",
+          "info": "https:\/\/x.com\/shopify"
+        },
+        "social_facebook_link": {
+          "label": "Facebook",
+          "info": "https:\/\/facebook.com\/shopify"
+        },
+        "social_pinterest_link": {
+          "label": "Pinterest",
+          "info": "https:\/\/pinterest.com\/shopify"
+        },
+        "social_instagram_link": {
+          "label": "Instagram",
+          "info": "http:\/\/instagram.com\/shopify"
+        },
+        "social_tiktok_link": {
+          "label": "TikTok",
+          "info": "https:\/\/tiktok.com\/@shopify"
+        },
+        "social_tumblr_link": {
+          "label": "Tumblr",
+          "info": "https:\/\/shopify.tumblr.com"
+        },
+        "social_snapchat_link": {
+          "label": "Snapchat",
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
+        },
+        "social_youtube_link": {
+          "label": "YouTube",
+          "info": "https:\/\/www.youtube.com\/shopify"
+        },
+        "social_vimeo_link": {
+          "label": "Vimeo",
+          "info": "https:\/\/vimeo.com\/shopify"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "header": {
           "content": "社交媒体账户"
@@ -216,7 +253,11 @@
     },
     "variant_pills": {
       "name": "多属性椭圆形框",
+<<<<<<< HEAD
       "paragraph": "多属性椭圆形框是显示[产品多属性](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types/product-pages#variant-picker-block) 的一种方式。"
+=======
+      "paragraph": "多属性椭圆形框是显示[产品多属性](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types\/product-pages#variant-picker-block) 的一种方式。"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
     },
     "inputs": {
       "name": "输入"
@@ -476,6 +517,7 @@
         },
         "show_social": {
           "label": "社交媒体图标",
+<<<<<<< HEAD
           "info": "[管理社交媒体账户](/editor?context=theme&category=social%20media)"
         },
         "enable_country_selector": {
@@ -485,6 +527,17 @@
         "enable_language_selector": {
           "label": "语言选择器",
           "info": "[管理语言](/admin/settings/languages)"
+=======
+          "info": "[管理社交媒体账户](\/editor?context=theme&category=social%20media)"
+        },
+        "enable_country_selector": {
+          "label": "国家\/地区选择器",
+          "info": "[管理国家\/地区](\/admin\/settings\/markets)"
+        },
+        "enable_language_selector": {
+          "label": "语言选择器",
+          "info": "[管理语言](\/admin\/settings\/languages)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "heading_utilities": {
           "content": "公共设施"
@@ -524,7 +577,11 @@
         },
         "card_styles": {
           "label": "卡样式",
+<<<<<<< HEAD
           "info": "在[模板设置](/editor?context=theme&category=product%20cards)中管理单独的卡样式",
+=======
+          "info": "在[模板设置](\/editor?context=theme&category=product%20cards)中管理单独的卡样式",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
           "options__1": {
             "label": "使用单独的卡样式"
           },
@@ -579,7 +636,11 @@
             },
             "description": {
               "label": "视频替代文本",
+<<<<<<< HEAD
               "info": "为使用屏幕阅读器的客户描述视频。[详细了解](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#video-block)",
+=======
+              "info": "为使用屏幕阅读器的客户描述视频。[详细了解](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#video-block)",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
               "default": "描述视频"
             }
           },
@@ -666,7 +727,11 @@
       "settings": {
         "custom_liquid": {
           "label": "Liquid 代码",
+<<<<<<< HEAD
           "info": "添加应用代码片段或其他代码以创建高级自定义。[详细了解](https://shopify.dev/docs/api/liquid)"
+=======
+          "info": "添加应用代码片段或其他代码以创建高级自定义。[详细了解](https:\/\/shopify.dev\/docs\/api\/liquid)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         }
       },
       "presets": {
@@ -753,7 +818,11 @@
         },
         "show_rating": {
           "label": "产品评分",
+<<<<<<< HEAD
           "info": "需要一个应用来进行评分。[详细了解](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-collection-show-product-rating)"
+=======
+          "info": "需要一个应用来进行评分。[详细了解](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#featured-collection-show-product-rating)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "enable_quick_buy": {
           "label": "快速添加"
@@ -846,7 +915,11 @@
             },
             "subtext": {
               "label": "子文本",
+<<<<<<< HEAD
               "default": "<p>与您的客户分享联系信息、商店详细信息和品牌内容。</p>"
+=======
+              "default": "<p>与您的客户分享联系信息、商店详细信息和品牌内容。<\/p>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           },
           "name": "文本"
@@ -855,11 +928,19 @@
           "name": "品牌信息",
           "settings": {
             "paragraph": {
+<<<<<<< HEAD
               "content": "在[模板设置](/editor?context=theme&category=brand%20information)中管理品牌信息"
             },
             "show_social": {
               "label": "社交媒体图标",
               "info": "[管理社交媒体账户](/editor?context=theme&category=social%20media)"
+=======
+              "content": "在[模板设置](\/editor?context=theme&category=brand%20information)中管理品牌信息"
+            },
+            "show_social": {
+              "label": "社交媒体图标",
+              "info": "[管理社交媒体账户](\/editor?context=theme&category=social%20media)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           }
         }
@@ -873,11 +954,16 @@
           "default": "订阅我们的电子邮件"
         },
         "header__1": {
+<<<<<<< HEAD
           "info": "注册添加[客户资料](https://help.shopify.com/manual/customers/manage-customers)",
+=======
+          "info": "注册添加[客户资料](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
           "content": "电子邮件注册信息"
         },
         "show_social": {
           "label": "社交媒体图标",
+<<<<<<< HEAD
           "info": "[管理社交媒体账户](/editor?context=theme&category=social%20media)"
         },
         "enable_country_selector": {
@@ -887,6 +973,17 @@
         "enable_language_selector": {
           "label": "语言选择器",
           "info": "[管理语言](/admin/settings/languages)"
+=======
+          "info": "[管理社交媒体账户](\/editor?context=theme&category=social%20media)"
+        },
+        "enable_country_selector": {
+          "label": "国家\/地区选择器",
+          "info": "[管理国家\/地区](\/admin\/settings\/markets)"
+        },
+        "enable_language_selector": {
+          "label": "语言选择器",
+          "info": "[管理语言](\/admin\/settings\/languages)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "payment_enable": {
           "label": "付款方式图标"
@@ -896,14 +993,22 @@
         },
         "show_policy": {
           "label": "政策链接",
+<<<<<<< HEAD
           "info": "[管理政策](/admin/settings/legal)"
+=======
+          "info": "[管理政策](\/admin\/settings\/legal)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "header__9": {
           "content": "公共设施"
         },
         "enable_follow_on_shop": {
           "label": "在 Shop 中关注",
+<<<<<<< HEAD
           "info": "必须启用 Shop Pay。[详细了解](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+=======
+          "info": "必须启用 Shop Pay。[详细了解](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         }
       }
     },
@@ -956,7 +1061,11 @@
           }
         },
         "logo_help": {
+<<<<<<< HEAD
           "content": "在[模板设置]](/editor?context=theme&category=logo)中编辑您的 logo"
+=======
+          "content": "在[模板设置]](\/editor?context=theme&category=logo)中编辑您的 logo"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "sticky_header_type": {
           "label": "粘性标头",
@@ -974,12 +1083,21 @@
           }
         },
         "enable_country_selector": {
+<<<<<<< HEAD
           "label": "国家/地区选择器",
           "info": "[管理国家/地区](/admin/settings/markets)"
         },
         "enable_language_selector": {
           "label": "语言选择器",
           "info": "[管理语言](/admin/settings/languages)"
+=======
+          "label": "国家\/地区选择器",
+          "info": "[管理国家\/地区](\/admin\/settings\/markets)"
+        },
+        "enable_language_selector": {
+          "label": "语言选择器",
+          "info": "[管理语言](\/admin\/settings\/languages)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "header__1": {
           "content": "颜色"
@@ -989,7 +1107,11 @@
         },
         "enable_customer_avatar": {
           "label": "﻿客户账户头像﻿﻿",
+<<<<<<< HEAD
           "info": "仅在客户使用 Shop 登录时显示。[管理客户账户](/admin/settings/customer_accounts)"
+=======
+          "info": "仅在客户使用 Shop 登录时显示。[管理客户账户](\/admin\/settings\/customer_accounts)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "header__utilities": {
           "content": "公共设施"
@@ -1270,7 +1392,11 @@
           "settings": {
             "text": {
               "label": "文本",
+<<<<<<< HEAD
               "default": "<p>将文本与图片配对，以便将焦点置于您选择的产品、产品系列或博客文章。添加有关供货情况和样式的详细信息，甚至是提供评论。</p>"
+=======
+              "default": "<p>将文本与图片配对，以便将焦点置于您选择的产品、产品系列或博客文章。添加有关供货情况和样式的详细信息，甚至是提供评论。<\/p>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             },
             "text_style": {
               "label": "样式",
@@ -1439,7 +1565,11 @@
       "name": "产品系列横幅",
       "settings": {
         "paragraph": {
+<<<<<<< HEAD
           "content": "产品系列详细信息[在您的后台内管理](https://help.shopify.com/manual/products/collections/collection-layout)"
+=======
+          "content": "产品系列详细信息[在您的后台内管理](https:\/\/help.shopify.com\/manual\/products\/collections\/collection-layout)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "show_collection_description": {
           "label": "描述"
@@ -1478,11 +1608,19 @@
         },
         "enable_tags": {
           "label": "筛选器",
+<<<<<<< HEAD
           "info": "使用 [Search & Discovery 应用](https://help.shopify.com/manual/online-store/search-and-discovery/filters) 自定义筛选条件"
         },
         "enable_filtering": {
           "label": "筛选器",
           "info": "使用 [Search & Discovery 应用](https://help.shopify.com/manual/online-store/search-and-discovery/filters) 自定义筛选条件"
+=======
+          "info": "使用 [Search & Discovery 应用](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters) 自定义筛选条件"
+        },
+        "enable_filtering": {
+          "label": "筛选器",
+          "info": "使用 [Search & Discovery 应用](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters) 自定义筛选条件"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "enable_sorting": {
           "label": "排序"
@@ -1492,7 +1630,11 @@
         },
         "show_rating": {
           "label": "产品评分",
+<<<<<<< HEAD
           "info": "需要一个应用来进行产品评分。[详细了解](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types/collection-pages#product-grid-show-product-rating)"
+=======
+          "info": "需要一个应用来进行产品评分。[详细了解](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types\/collection-pages#product-grid-show-product-rating)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "columns_desktop": {
           "label": "列"
@@ -1595,7 +1737,11 @@
       "name": "密码标头",
       "settings": {
         "logo_help": {
+<<<<<<< HEAD
           "content": "在[模板设置]](/editor?context=theme&category=logo)中编辑您的 logo"
+=======
+          "content": "在[模板设置]](\/editor?context=theme&category=logo)中编辑您的 logo"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         }
       }
     },
@@ -1637,7 +1783,11 @@
             },
             "swatch_shape": {
               "label": "样本",
+<<<<<<< HEAD
               "info": "详细了解如何在产品选项上启用[样本](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-settings#options-with-swatches)",
+=======
+              "info": "详细了解如何在产品选项上启用[样本](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/theme-settings#options-with-swatches)",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
               "options__1": {
                 "label": "圆形"
               },
@@ -1654,11 +1804,19 @@
           "settings": {
             "show_dynamic_checkout": {
               "label": "动态结账按钮",
+<<<<<<< HEAD
               "info": "客户将看到他们首选的支付方式。[详细了解](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
             },
             "show_gift_card_recipient": {
               "label": " ﻿礼品卡发送选项",
               "info": "客户可以添加个人消息并安排发送日期。[详细了解](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+=======
+              "info": "客户将看到他们首选的支付方式。[详细了解](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+            },
+            "show_gift_card_recipient": {
+              "label": " ﻿礼品卡发送选项",
+              "info": "客户可以添加个人消息并安排发送日期。[详细了解](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           },
           "name": "Buy Button"
@@ -1853,7 +2011,11 @@
           "name": "产品评分",
           "settings": {
             "paragraph": {
+<<<<<<< HEAD
               "content": "需要一个应用来进行产品评分。[详细了解](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types/product-pages#product-rating-block)"
+=======
+              "content": "需要一个应用来进行产品评分。[详细了解](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types\/product-pages#product-rating-block)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           }
         },
@@ -1861,7 +2023,11 @@
           "name": "互补产品",
           "settings": {
             "paragraph": {
+<<<<<<< HEAD
               "content": "在 [Search & Discovery 应用](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations) 中管理互补产品"
+=======
+              "content": "在 [Search & Discovery 应用](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations) 中管理互补产品"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             },
             "heading": {
               "label": "标题",
@@ -2122,7 +2288,11 @@
         },
         "show_rating": {
           "label": "产品评分",
+<<<<<<< HEAD
           "info": "需要一个应用来进行产品评分。[详细了解](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types/search-page)"
+=======
+          "info": "需要一个应用来进行产品评分。[详细了解](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/page-types\/search-page)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "columns_desktop": {
           "label": "列"
@@ -2148,10 +2318,17 @@
         "image_width": {
           "label": "宽度",
           "options__1": {
+<<<<<<< HEAD
             "label": "1/3 列宽"
           },
           "options__2": {
             "label": "1/2 列宽"
+=======
+            "label": "1\/3 列宽"
+          },
+          "options__2": {
+            "label": "1\/2 列宽"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
           },
           "options__3": {
             "label": "全列宽"
@@ -2241,7 +2418,11 @@
             },
             "text": {
               "label": "描述",
+<<<<<<< HEAD
               "default": "<p>将文本与图片配对，以便将焦点置于您选择的产品、产品系列或博客文章。添加有关供货情况和样式的详细信息，甚至是提供评论。</p>"
+=======
+              "default": "<p>将文本与图片配对，以便将焦点置于您选择的产品、产品系列或博客文章。添加有关供货情况和样式的详细信息，甚至是提供评论。<\/p>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             },
             "link_label": {
               "label": "链接标签",
@@ -2265,7 +2446,11 @@
           "label": "全宽"
         },
         "paragraph": {
+<<<<<<< HEAD
           "content": "注册添加[客户资料](https://help.shopify.com/manual/customers/manage-customers)"
+=======
+          "content": "注册添加[客户资料](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         }
       },
       "blocks": {
@@ -2282,7 +2467,11 @@
           "settings": {
             "paragraph": {
               "label": "文本",
+<<<<<<< HEAD
               "default": "<p>成为第一批了解新产品系列和专属优惠的客户。</p>"
+=======
+              "default": "<p>成为第一批了解新产品系列和专属优惠的客户。<\/p>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           },
           "name": "文本"
@@ -2351,7 +2540,11 @@
           "settings": {
             "text": {
               "label": "文本",
+<<<<<<< HEAD
               "default": "<p>与客户分享有关您品牌的信息。描述产品、发布公告或欢迎客户访问您的商店。</p>"
+=======
+              "default": "<p>与客户分享有关您品牌的信息。描述产品、发布公告或欢迎客户访问您的商店。<\/p>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           },
           "name": "文本"
@@ -2529,7 +2722,11 @@
             },
             "swatch_shape": {
               "label": "样本",
+<<<<<<< HEAD
               "info": "详细了解如何在产品选项上启用[样本](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-settings#options-with-swatches)",
+=======
+              "info": "详细了解如何在产品选项上启用[样本](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/theme-settings#options-with-swatches)",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
               "options__1": {
                 "label": "圆形"
               },
@@ -2547,7 +2744,11 @@
           "settings": {
             "show_dynamic_checkout": {
               "label": "动态结账按钮",
+<<<<<<< HEAD
               "info": "客户将看到他们首选的支付方式。[详细了解](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
+=======
+              "info": "客户将看到他们首选的支付方式。[详细了解](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           }
         },
@@ -2558,10 +2759,17 @@
           "name": "分享",
           "settings": {
             "featured_image_info": {
+<<<<<<< HEAD
               "content": "如果您在社交媒体帖子中包含链接，该页面的配图将作为预览图片显示。[详细了解](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)"
             },
             "title_info": {
               "content": "预览图片中包含商店标题和描述。[详细了解](https://help.shopify.com/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)"
+=======
+              "content": "如果您在社交媒体帖子中包含链接，该页面的配图将作为预览图片显示。[详细了解](https:\/\/help.shopify.com\/manual\/online-store\/images\/showing-social-media-thumbnail-images)"
+            },
+            "title_info": {
+              "content": "预览图片中包含商店标题和描述。[详细了解](https:\/\/help.shopify.com\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             },
             "text": {
               "label": "文本",
@@ -2573,7 +2781,11 @@
           "name": "产品评分",
           "settings": {
             "paragraph": {
+<<<<<<< HEAD
               "content": "需要一个应用来进行产品评分。[详细了解](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-product-rating)"
+=======
+              "content": "需要一个应用来进行产品评分。[详细了解](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#featured-product-rating)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           }
         },
@@ -2630,7 +2842,11 @@
       "name": "电子邮件注册横幅",
       "settings": {
         "paragraph": {
+<<<<<<< HEAD
           "content": "注册添加[客户资料](https://help.shopify.com/manual/customers/manage-customers)"
+=======
+          "content": "注册添加[客户资料](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "image": {
           "label": "背景图片"
@@ -2741,7 +2957,11 @@
           "settings": {
             "paragraph": {
               "label": "文本",
+<<<<<<< HEAD
               "default": "<p>成为第一批知道我们何时推出新内容的客户。</p>"
+=======
+              "default": "<p>成为第一批知道我们何时推出新内容的客户。<\/p>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             },
             "text_style": {
               "options__1": {
@@ -3192,7 +3412,11 @@
           "label": "列"
         },
         "paragraph__1": {
+<<<<<<< HEAD
           "content": "可在 [Search & Discovery 应用](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations) 中管理相关产品﻿﻿",
+=======
+          "content": "可在 [Search & Discovery 应用](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations) 中管理相关产品﻿﻿",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
           "default": "您可能还喜欢"
         },
         "header__2": {
@@ -3218,7 +3442,11 @@
         },
         "show_rating": {
           "label": "产品评分",
+<<<<<<< HEAD
           "info": "需要一个应用来进行产品评分。[详细了解](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-product-recommendations)"
+=======
+          "info": "需要一个应用来进行产品评分。[详细了解](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-product-recommendations)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "columns_mobile": {
           "label": "移动设备列",
@@ -3363,7 +3591,11 @@
             },
             "text": {
               "label": "文本",
+<<<<<<< HEAD
               "default": "<p>将文本与图片配对，以便将焦点置于您选择的产品、产品系列或博客文章。添加有关供货情况和样式的详细信息，甚至是提供评论。</p>"
+=======
+              "default": "<p>将文本与图片配对，以便将焦点置于您选择的产品、产品系列或博客文章。添加有关供货情况和样式的详细信息，甚至是提供评论。<\/p>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             },
             "button_label": {
               "label": "按钮标签",

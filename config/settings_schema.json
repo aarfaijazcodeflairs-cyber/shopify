@@ -4,8 +4,13 @@
     "theme_name": "Dawn",
     "theme_version": "15.4.0",
     "theme_author": "Shopify",
+<<<<<<< HEAD
     "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
     "theme_support_url": "https://support.shopify.com/"
+=======
+    "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes",
+    "theme_support_url": "https:\/\/support.shopify.com\/"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
   },
   {
     "name": "t:settings_schema.logo.name",

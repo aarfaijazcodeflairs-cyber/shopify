@@ -54,6 +54,7 @@
       "name": "Media społecznościowe",
       "settings": {
         "social_twitter_link": {
+<<<<<<< HEAD
           "label": "X / Twitter",
           "info": "https://x.com/shopify"
         },
@@ -88,6 +89,42 @@
         "social_vimeo_link": {
           "label": "Vimeo",
           "info": "https://vimeo.com/shopify"
+=======
+          "label": "X \/ Twitter",
+          "info": "https:\/\/x.com\/shopify"
+        },
+        "social_facebook_link": {
+          "label": "Facebook",
+          "info": "https:\/\/facebook.com\/shopify"
+        },
+        "social_pinterest_link": {
+          "label": "Pinterest",
+          "info": "https:\/\/pinterest.com\/shopify"
+        },
+        "social_instagram_link": {
+          "label": "Instagram",
+          "info": "http:\/\/instagram.com\/shopify"
+        },
+        "social_tiktok_link": {
+          "label": "TikTok",
+          "info": "https:\/\/tiktok.com\/@shopify"
+        },
+        "social_tumblr_link": {
+          "label": "Tumblr",
+          "info": "https:\/\/shopify.tumblr.com"
+        },
+        "social_snapchat_link": {
+          "label": "Snapchat",
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
+        },
+        "social_youtube_link": {
+          "label": "Youtube",
+          "info": "https:\/\/www.youtube.com\/shopify"
+        },
+        "social_vimeo_link": {
+          "label": "Vimeo",
+          "info": "https:\/\/vimeo.com\/shopify"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "header": {
           "content": "Konta społecznościowe"
@@ -216,7 +253,11 @@
     },
     "variant_pills": {
       "name": "Okrągłe przełączniki wariantów",
+<<<<<<< HEAD
       "paragraph": "Okrągłe przełączniki wariantów to jeden ze sposobów wyświetlania [wariantów produktów](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types/product-pages#variant-picker-block)"
+=======
+      "paragraph": "Okrągłe przełączniki wariantów to jeden ze sposobów wyświetlania [wariantów produktów](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types\/product-pages#variant-picker-block)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
     },
     "inputs": {
       "name": "Dane wejściowe"
@@ -476,6 +517,7 @@
         },
         "show_social": {
           "label": "Ikony mediów społecznościowych",
+<<<<<<< HEAD
           "info": "[Zarządzaj kontami społecznościowymi](/editor?context=theme&category=social%20media)"
         },
         "enable_country_selector": {
@@ -485,6 +527,17 @@
         "enable_language_selector": {
           "label": "Selektor języka",
           "info": "[Zarządzaj językami](/admin/settings/languages)"
+=======
+          "info": "[Zarządzaj kontami społecznościowymi](\/editor?context=theme&category=social%20media)"
+        },
+        "enable_country_selector": {
+          "label": "Selektor kraju\/regionu",
+          "info": "[Zarządzaj krajami\/regionami](\/admin\/settings\/markets)"
+        },
+        "enable_language_selector": {
+          "label": "Selektor języka",
+          "info": "[Zarządzaj językami](\/admin\/settings\/languages)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "heading_utilities": {
           "content": "Użyteczne funkcje"
@@ -524,7 +577,11 @@
         },
         "card_styles": {
           "label": "Styl karty",
+<<<<<<< HEAD
           "info": "Zarządzaj indywidualnymi stylami kart w [ustawieniach szablonu](/editor?context=theme&category=product%20cards)",
+=======
+          "info": "Zarządzaj indywidualnymi stylami kart w [ustawieniach szablonu](\/editor?context=theme&category=product%20cards)",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
           "options__1": {
             "label": "Użyj indywidualnych stylów kart"
           },
@@ -580,7 +637,11 @@
             },
             "description": {
               "label": "Alternatywny tekst filmu",
+<<<<<<< HEAD
               "info": "Opisz film dla klientów korzystających z czytników ekranu. [Dowiedz się więcej](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#video-block)",
+=======
+              "info": "Opisz film dla klientów korzystających z czytników ekranu. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#video-block)",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
               "default": "Opisz wideo"
             }
           }
@@ -666,7 +727,11 @@
       "settings": {
         "custom_liquid": {
           "label": "Kod Liquid",
+<<<<<<< HEAD
           "info": "Dodaj fragmenty kodu aplikacji lub inny kod, aby utworzyć zaawansowane dostosowania. [Dowiedz się więcej](https://shopify.dev/docs/api/liquid)"
+=======
+          "info": "Dodaj fragmenty kodu aplikacji lub inny kod, aby utworzyć zaawansowane dostosowania. [Dowiedz się więcej](https:\/\/shopify.dev\/docs\/api\/liquid)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         }
       },
       "presets": {
@@ -753,7 +818,11 @@
         },
         "show_rating": {
           "label": "Ocena produktu",
+<<<<<<< HEAD
           "info": "Do wystawiania ocen wymagana jest aplikacja. [Dowiedz się więcej](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-collection-show-product-rating)"
+=======
+          "info": "Do wystawiania ocen wymagana jest aplikacja. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#featured-collection-show-product-rating)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "enable_quick_buy": {
           "label": "Szybkie dodawanie"
@@ -847,7 +916,11 @@
             },
             "subtext": {
               "label": "Tekst podrzędny",
+<<<<<<< HEAD
               "default": "<p>Udostępniaj klientom informacje kontaktowe, dane sklepu i treści związane z marką.</p>"
+=======
+              "default": "<p>Udostępniaj klientom informacje kontaktowe, dane sklepu i treści związane z marką.<\/p>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           }
         },
@@ -855,11 +928,19 @@
           "name": "Informacje o marce",
           "settings": {
             "paragraph": {
+<<<<<<< HEAD
               "content": "Zarządzaj informacjami o marce w [ustawieniach szablonu](/editor?context=theme&category=brand%20information)"
             },
             "show_social": {
               "label": "Ikony mediów społecznościowych",
               "info": "[Zarządzaj kontami społecznościowymi](/editor?context=theme&category=social%20media)"
+=======
+              "content": "Zarządzaj informacjami o marce w [ustawieniach szablonu](\/editor?context=theme&category=brand%20information)"
+            },
+            "show_social": {
+              "label": "Ikony mediów społecznościowych",
+              "info": "[Zarządzaj kontami społecznościowymi](\/editor?context=theme&category=social%20media)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           }
         }
@@ -874,6 +955,7 @@
         },
         "header__1": {
           "content": "Rejestracja w celu otrzymywania e-maili",
+<<<<<<< HEAD
           "info": "Rejestracje dodają [profile klienta](https://help.shopify.com/manual/customers/manage-customers)"
         },
         "show_social": {
@@ -887,6 +969,21 @@
         "enable_language_selector": {
           "label": "Selektor języka",
           "info": "[Zarządzaj językami](/admin/settings/languages)"
+=======
+          "info": "Rejestracje dodają [profile klienta](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
+        },
+        "show_social": {
+          "label": "Ikony mediów społecznościowych",
+          "info": "[Zarządzaj kontami społecznościowymi](\/editor?context=theme&category=social%20media)"
+        },
+        "enable_country_selector": {
+          "label": "Selektor kraju\/regionu",
+          "info": "[Zarządzaj krajami\/regionami](\/admin\/settings\/markets)"
+        },
+        "enable_language_selector": {
+          "label": "Selektor języka",
+          "info": "[Zarządzaj językami](\/admin\/settings\/languages)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "payment_enable": {
           "label": "Ikony metody płatności"
@@ -896,14 +993,22 @@
         },
         "show_policy": {
           "label": "Linki do polityki",
+<<<<<<< HEAD
           "info": "[Zarządzaj politykami](/admin/settings/legal)"
+=======
+          "info": "[Zarządzaj politykami](\/admin\/settings\/legal)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "header__9": {
           "content": "Użyteczne funkcje"
         },
         "enable_follow_on_shop": {
           "label": "Obserwuj w Shop",
+<<<<<<< HEAD
           "info": "Usługa Shop Pay musi być włączona. [Dowiedz się więcej](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+=======
+          "info": "Usługa Shop Pay musi być włączona. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         }
       }
     },
@@ -956,7 +1061,11 @@
           }
         },
         "logo_help": {
+<<<<<<< HEAD
           "content": "Edytuj logo w [ustawieniach szablonu](/editor?context=theme&category=logo)"
+=======
+          "content": "Edytuj logo w [ustawieniach szablonu](\/editor?context=theme&category=logo)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "sticky_header_type": {
           "label": "Przypięty nagłówek",
@@ -974,12 +1083,21 @@
           }
         },
         "enable_country_selector": {
+<<<<<<< HEAD
           "label": "Selektor kraju/regionu",
           "info": "[Zarządzaj krajami/regionami](/admin/settings/markets)"
         },
         "enable_language_selector": {
           "label": "Selektor języka",
           "info": "[Zarządzaj językami](/admin/settings/languages)"
+=======
+          "label": "Selektor kraju\/regionu",
+          "info": "[Zarządzaj krajami\/regionami](\/admin\/settings\/markets)"
+        },
+        "enable_language_selector": {
+          "label": "Selektor języka",
+          "info": "[Zarządzaj językami](\/admin\/settings\/languages)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "header__1": {
           "content": "Kolor"
@@ -989,7 +1107,11 @@
         },
         "enable_customer_avatar": {
           "label": "Awatar konta klienta",
+<<<<<<< HEAD
           "info": "Widoczny tylko wtedy, gdy klienci są zalogowani do Shop. [Zarządzaj kontami klientów](/admin/settings/customer_accounts)"
+=======
+          "info": "Widoczny tylko wtedy, gdy klienci są zalogowani do Shop. [Zarządzaj kontami klientów](\/admin\/settings\/customer_accounts)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "header__utilities": {
           "content": "Użyteczne funkcje"
@@ -1271,7 +1393,11 @@
           "settings": {
             "text": {
               "label": "Tekst",
+<<<<<<< HEAD
               "default": "<p>Połącz tekst z obrazem, aby skierować uwagę na wybrany produkt, kolekcję lub wpis na blogu. Dodaj szczegóły dotyczące dostępności, stylu lub dołącz recenzję.</p>"
+=======
+              "default": "<p>Połącz tekst z obrazem, aby skierować uwagę na wybrany produkt, kolekcję lub wpis na blogu. Dodaj szczegóły dotyczące dostępności, stylu lub dołącz recenzję.<\/p>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             },
             "text_style": {
               "label": "Styl",
@@ -1439,7 +1565,11 @@
       "name": "Baner kolekcji",
       "settings": {
         "paragraph": {
+<<<<<<< HEAD
           "content": "Szczegółami kolekcji można [zarządzać w panelu administracyjnym](https://help.shopify.com/manual/products/collections/collection-layout)"
+=======
+          "content": "Szczegółami kolekcji można [zarządzać w panelu administracyjnym](https:\/\/help.shopify.com\/manual\/products\/collections\/collection-layout)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "show_collection_description": {
           "label": "Opis"
@@ -1475,11 +1605,19 @@
         },
         "enable_tags": {
           "label": "Filtry",
+<<<<<<< HEAD
           "info": "Dostosuj filtry za pomocą [aplikacji Search & Discovery](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
         },
         "enable_filtering": {
           "label": "Filtry",
           "info": "Dostosuj filtry za pomocą [aplikacji Search & Discovery](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+=======
+          "info": "Dostosuj filtry za pomocą [aplikacji Search & Discovery](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
+        },
+        "enable_filtering": {
+          "label": "Filtry",
+          "info": "Dostosuj filtry za pomocą [aplikacji Search & Discovery](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "enable_sorting": {
           "label": "Sortowanie"
@@ -1492,7 +1630,11 @@
         },
         "show_rating": {
           "label": "Ocena produktu",
+<<<<<<< HEAD
           "info": "Do oceniania produktów wymagana jest aplikacja. [Dowiedz się więcej](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types/collection-pages#product-grid-show-product-rating)"
+=======
+          "info": "Do oceniania produktów wymagana jest aplikacja. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types\/collection-pages#product-grid-show-product-rating)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "columns_desktop": {
           "label": "Kolumny"
@@ -1595,7 +1737,11 @@
       "name": "Nagłówek hasła",
       "settings": {
         "logo_help": {
+<<<<<<< HEAD
           "content": "Edytuj logo w [ustawieniach szablonu](/editor?context=theme&category=logo)"
+=======
+          "content": "Edytuj logo w [ustawieniach szablonu](\/editor?context=theme&category=logo)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         }
       }
     },
@@ -1646,7 +1792,11 @@
             },
             "swatch_shape": {
               "label": "Próbka",
+<<<<<<< HEAD
               "info": "Dowiedz się więcej o [próbkach](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-settings#options-with-swatches) w opcjach produktu",
+=======
+              "info": "Dowiedz się więcej o [próbkach](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/theme-settings#options-with-swatches) w opcjach produktu",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
               "options__1": {
                 "label": "Koło"
               },
@@ -1664,11 +1814,19 @@
           "settings": {
             "show_dynamic_checkout": {
               "label": "Dynamiczne przyciski realizacji zakupu",
+<<<<<<< HEAD
               "info": "Klienci zobaczą swoją preferowaną opcję płatności. [Dowiedz się więcej](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
             },
             "show_gift_card_recipient": {
               "label": " Opcje wysyłania karty prezentowej",
               "info": "Klienci mogą dodać osobistą notatkę i zaplanować datę wysyłki. [Dowiedz się więcej](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+=======
+              "info": "Klienci zobaczą swoją preferowaną opcję płatności. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+            },
+            "show_gift_card_recipient": {
+              "label": " Opcje wysyłania karty prezentowej",
+              "info": "Klienci mogą dodać osobistą notatkę i zaplanować datę wysyłki. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           }
         },
@@ -1853,7 +2011,11 @@
           "name": "Ocena produktu",
           "settings": {
             "paragraph": {
+<<<<<<< HEAD
               "content": "Do oceniania produktów wymagana jest aplikacja. [Dowiedz się więcej](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types/product-pages#product-rating-block)"
+=======
+              "content": "Do oceniania produktów wymagana jest aplikacja. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types\/product-pages#product-rating-block)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           }
         },
@@ -1861,7 +2023,11 @@
           "name": "Produkty uzupełniające",
           "settings": {
             "paragraph": {
+<<<<<<< HEAD
               "content": "Zarządzaj produktami uzupełniającymi w [aplikacji Search & Discovery](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+=======
+              "content": "Zarządzaj produktami uzupełniającymi w [aplikacji Search & Discovery](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             },
             "heading": {
               "label": "Nagłówek",
@@ -2122,7 +2288,11 @@
         },
         "show_rating": {
           "label": "Ocena produktu",
+<<<<<<< HEAD
           "info": "Do oceniania produktów wymagana jest aplikacja. [Dowiedz się więcej](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types/search-page)"
+=======
+          "info": "Do oceniania produktów wymagana jest aplikacja. [Dowiedz się więcej](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/page-types\/search-page)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "columns_desktop": {
           "label": "Kolumny"
@@ -2242,7 +2412,11 @@
             },
             "text": {
               "label": "Opis",
+<<<<<<< HEAD
               "default": "<p>Połącz tekst z obrazem, aby skierować uwagę na wybrany produkt, kolekcję lub wpis na blogu. Dodaj szczegóły dotyczące dostępności, stylu lub dołącz recenzję.</p>"
+=======
+              "default": "<p>Połącz tekst z obrazem, aby skierować uwagę na wybrany produkt, kolekcję lub wpis na blogu. Dodaj szczegóły dotyczące dostępności, stylu lub dołącz recenzję.<\/p>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             },
             "link_label": {
               "label": "Etykieta linku",
@@ -2265,7 +2439,11 @@
           "label": "Pełna szerokość"
         },
         "paragraph": {
+<<<<<<< HEAD
           "content": "Rejestracje dodają [profile klienta](https://help.shopify.com/manual/customers/manage-customers)"
+=======
+          "content": "Rejestracje dodają [profile klienta](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         }
       },
       "blocks": {
@@ -2283,7 +2461,11 @@
           "settings": {
             "paragraph": {
               "label": "Tekst",
+<<<<<<< HEAD
               "default": "<p>Dowiedz się jako pierwszy o nowych kolekcjach i ekskluzywnych ofertach.</p>"
+=======
+              "default": "<p>Dowiedz się jako pierwszy o nowych kolekcjach i ekskluzywnych ofertach.<\/p>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           }
         },
@@ -2352,7 +2534,11 @@
           "settings": {
             "text": {
               "label": "Tekst",
+<<<<<<< HEAD
               "default": "<p>Udostępnij klientom informacje o swojej marce. Opisz produkt, udostępnij ogłoszenia lub przywitaj klientów w swoim sklepie.</p>"
+=======
+              "default": "<p>Udostępnij klientom informacje o swojej marce. Opisz produkt, udostępnij ogłoszenia lub przywitaj klientów w swoim sklepie.<\/p>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           }
         },
@@ -2529,7 +2715,11 @@
             },
             "swatch_shape": {
               "label": "Próbka",
+<<<<<<< HEAD
               "info": "Dowiedz się więcej o [próbkach](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-settings#options-with-swatches) w opcjach produktu",
+=======
+              "info": "Dowiedz się więcej o [próbkach](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/theme-settings#options-with-swatches) w opcjach produktu",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
               "options__1": {
                 "label": "Koło"
               },
@@ -2547,7 +2737,11 @@
           "settings": {
             "show_dynamic_checkout": {
               "label": "Dynamiczne przyciski realizacji zakupu",
+<<<<<<< HEAD
               "info": "Klienci zobaczą swoją preferowaną opcję płatności. [Dowiedz się więcej](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
+=======
+              "info": "Klienci zobaczą swoją preferowaną opcję płatności. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           }
         },
@@ -2558,10 +2752,17 @@
           "name": "Udostępnij",
           "settings": {
             "featured_image_info": {
+<<<<<<< HEAD
               "content": "Jeśli dodasz link w postach mediów społecznościowych, wyróżniony obraz strony będzie wyświetlany jako obraz podglądu. [Dowiedz się więcej](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)"
             },
             "title_info": {
               "content": "Tytuł i opis strony są dodawane wraz z obrazem podglądu. [Dowiedz się więcej](https://help.shopify.com/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)"
+=======
+              "content": "Jeśli dodasz link w postach mediów społecznościowych, wyróżniony obraz strony będzie wyświetlany jako obraz podglądu. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/online-store\/images\/showing-social-media-thumbnail-images)"
+            },
+            "title_info": {
+              "content": "Tytuł i opis strony są dodawane wraz z obrazem podglądu. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             },
             "text": {
               "label": "Tekst",
@@ -2573,7 +2774,11 @@
           "name": "Ocena produktu",
           "settings": {
             "paragraph": {
+<<<<<<< HEAD
               "content": "Do oceniania produktów wymagana jest aplikacja. [Dowiedz się więcej](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-product-rating)"
+=======
+              "content": "Do oceniania produktów wymagana jest aplikacja. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#featured-product-rating)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           }
         },
@@ -2630,7 +2835,11 @@
       "name": "Baner rejestracji w celu otrzymywania e-maili",
       "settings": {
         "paragraph": {
+<<<<<<< HEAD
           "content": "Rejestracje dodają [profile klienta](https://help.shopify.com/manual/customers/manage-customers)"
+=======
+          "content": "Rejestracje dodają [profile klienta](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "image": {
           "label": "Obraz tła"
@@ -2741,7 +2950,11 @@
           "settings": {
             "paragraph": {
               "label": "Tekst",
+<<<<<<< HEAD
               "default": "<p>Bądź pierwszą osobą, która dowie się, kiedy wystartujemy.</p>"
+=======
+              "default": "<p>Bądź pierwszą osobą, która dowie się, kiedy wystartujemy.<\/p>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             },
             "text_style": {
               "options__1": {
@@ -3192,7 +3405,11 @@
           "label": "Kolumny"
         },
         "paragraph__1": {
+<<<<<<< HEAD
           "content": "Powiązanymi produktami można zarządzać w [aplikacji Search & Discovery](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)",
+=======
+          "content": "Powiązanymi produktami można zarządzać w [aplikacji Search & Discovery](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
           "default": "Może Ci się spodobać również"
         },
         "header__2": {
@@ -3218,7 +3435,11 @@
         },
         "show_rating": {
           "label": "Ocena produktu",
+<<<<<<< HEAD
           "info": "Do oceniania produktów wymagana jest aplikacja. [Dowiedz się więcej](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-product-recommendations)"
+=======
+          "info": "Do oceniania produktów wymagana jest aplikacja. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-product-recommendations)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "columns_mobile": {
           "label": "Kolumny na urządzeniu mobilnym",
@@ -3363,7 +3584,11 @@
             },
             "text": {
               "label": "Tekst",
+<<<<<<< HEAD
               "default": "<p>Połącz tekst z obrazem, aby skierować uwagę na wybrany produkt, kolekcję lub wpis na blogu. Dodaj szczegóły dotyczące dostępności, stylu lub dołącz recenzję.</p>"
+=======
+              "default": "<p>Połącz tekst z obrazem, aby skierować uwagę na wybrany produkt, kolekcję lub wpis na blogu. Dodaj szczegóły dotyczące dostępności, stylu lub dołącz recenzję.<\/p>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             },
             "button_label": {
               "label": "Przycisk z etykietą",

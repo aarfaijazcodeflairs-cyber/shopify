@@ -7,7 +7,11 @@
       "login_form_password_placeholder": "Ditt lösenord",
       "login_form_error": "Fel lösenord!",
       "login_form_submit": "Ange",
+<<<<<<< HEAD
       "admin_link_html": "Är du butiksägare? <a href=\"/admin\" class=\"link underlined-link\">Logga in här</a>",
+=======
+      "admin_link_html": "Är du butiksägare? <a href=\"\/admin\" class=\"link underlined-link\">Logga in här<\/a>",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       "powered_by_shopify_html": "Denna butik kommer drivas av {{ shopify }}"
     },
     "social": {
@@ -117,7 +121,11 @@
         "minimum_of": "Minimum på {{ quantity }}",
         "maximum_of": "Maximum på {{ quantity }}",
         "multiples_of": "Ökningar i steg om {{ quantity }}",
+<<<<<<< HEAD
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> i varukorg",
+=======
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> i varukorg",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         "note": "Visa kvantitetsregler",
         "min_of": "Min. {{ quantity }}",
         "max_of": "Max. {{ quantity }}",
@@ -140,8 +148,13 @@
         "view_store_info": "Visa butiksinformation",
         "check_other_stores": "Kontrollerar tillgänglighet i andra butiker",
         "pick_up_available": "Hämtning tillgänglig",
+<<<<<<< HEAD
         "pick_up_available_at_html": "Hämtning tillgänglig på <span class=\"color-foreground\">{{ location_name }}</span>",
         "pick_up_unavailable_at_html": "Det går för närvarande inte att få hämtning på <span class=\"color-foreground\">{{ location_name }}</span>",
+=======
+        "pick_up_available_at_html": "Hämtning tillgänglig på <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Det går för närvarande inte att få hämtning på <span class=\"color-foreground\">{{ location_name }}<\/span>",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         "unavailable": "Det gick inte att ladda hämtningstillgänglighet",
         "refresh": "Uppdatera"
       },
@@ -157,7 +170,11 @@
       },
       "nested_label": "{{ title }} för {{ parent_title }}",
       "view_full_details": "Visa alla uppgifter",
+<<<<<<< HEAD
       "shipping_policy_html": "<a href=\"{{ link }}\">Frakt</a> beräknas i kassan.",
+=======
+      "shipping_policy_html": "<a href=\"{{ link }}\">Frakt<\/a> beräknas i kassan.",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       "choose_options": "Välj alternativ",
       "choose_product_options": "Välj alternativ för {{ product_name }}",
       "value_unavailable": "{{ option_value }} – inte tillgängligt",
@@ -174,7 +191,11 @@
         "note": "Volymprissättning är tillgängligt",
         "minimum": "Fler än {{ quantity }}",
         "price_range": "{{ minimum }}–{{ maximum }}",
+<<<<<<< HEAD
         "price_at_each_html": "för {{ price }}/st"
+=======
+        "price_at_each_html": "för {{ price }}\/st"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       },
       "product_variants": "Produktvarianter",
       "taxes_included": "Skatter ingår.",
@@ -294,6 +315,7 @@
       "update": "Uppdatera",
       "login": {
         "title": "Har du ett konto?",
+<<<<<<< HEAD
         "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Logga in</a> för att gå till kassan snabbare."
       },
       "estimated_total": "Beräknad totalsumma",
@@ -305,6 +327,19 @@
       "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Tullavgifter ingår. Skatter, rabatter och <a href=\"{{ link }}\">fraktkostnad</a> beräknas i kassan.",
       "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Tullavgifter ingår. Skatter, rabatter och fraktkostnad beräknas i kassan.",
       "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Skatter, rabatter och <a href=\"{{ link }}\">fraktkostnad</a> beräknas i kassan.",
+=======
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Logga in<\/a> för att gå till kassan snabbare."
+      },
+      "estimated_total": "Beräknad totalsumma",
+      "new_estimated_total": "Nytt beräknat totalbelopp",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Tullavgifter och skatter ingår. Rabatter och <a href=\"{{ link }}\">fraktkostnad<\/a> beräknas i kassan.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Tullavgifter och skatter ingår. Rabatter och fraktkostnad beräknas i kassan.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Skatter ingår. Rabatter och <a href=\"{{ link }}\">fraktkostnad<\/a> beräknas i kassan.",
+      "taxes_included_shipping_at_checkout_without_policy": "Skatter ingår. Rabatter och fraktkostnad beräknas i kassan.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Tullavgifter ingår. Skatter, rabatter och <a href=\"{{ link }}\">fraktkostnad<\/a> beräknas i kassan.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Tullavgifter ingår. Skatter, rabatter och fraktkostnad beräknas i kassan.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Skatter, rabatter och <a href=\"{{ link }}\">fraktkostnad<\/a> beräknas i kassan.",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       "taxes_at_checkout_shipping_at_checkout_without_policy": "Skatter, rabatter och fraktkostnad beräknas i kassan."
     },
     "footer": {
@@ -325,7 +360,11 @@
     "collection_template": {
       "title": "Produktserie",
       "empty": "Inga produkter hittades",
+<<<<<<< HEAD
       "use_fewer_filters_html": "Använd färre filter eller <a class=\"{{ class }}\" href=\"{{ link }}\">ta bort alla</a>"
+=======
+      "use_fewer_filters_html": "Använd färre filter eller <a class=\"{{ class }}\" href=\"{{ link }}\">ta bort alla<\/a>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
     },
     "video": {
       "load_video": "Ladda video: {{ description }}"
@@ -352,7 +391,11 @@
     "quick_order_list": {
       "product_total": "Delsumma för produkt",
       "view_cart": "Visa varukorg",
+<<<<<<< HEAD
       "each": "{{ money }}/st.",
+=======
+      "each": "{{ money }}\/st.",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       "product": "Produkt",
       "variant": "Variant",
       "variant_total": "Totalbelopp för variant",
@@ -376,6 +419,7 @@
     }
   },
   "localization": {
+<<<<<<< HEAD
     "country_label": "Land/Region",
     "language_label": "Språk",
     "update_language": "Uppdatera språk",
@@ -383,6 +427,15 @@
     "search": "Sök",
     "popular_countries_regions": "Populära länder/regioner",
     "country_results_count": "{{ count }} länder/regioner hittades"
+=======
+    "country_label": "Land\/Region",
+    "language_label": "Språk",
+    "update_language": "Uppdatera språk",
+    "update_country": "Uppdatera land\/region",
+    "search": "Sök",
+    "popular_countries_regions": "Populära länder\/regioner",
+    "country_results_count": "{{ count }} länder\/regioner hittades"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
   },
   "customer": {
     "account": {
@@ -411,7 +464,11 @@
       "address1": "Adress 1",
       "address2": "Adress 2",
       "city": "Stad",
+<<<<<<< HEAD
       "country": "Land/Region",
+=======
+      "country": "Land\/Region",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       "province": "Provins",
       "zip": "Postnummer",
       "phone": "Telefon",

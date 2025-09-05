@@ -55,6 +55,7 @@
       "settings": {
         "social_twitter_link": {
           "label": "X (Twitter)",
+<<<<<<< HEAD
           "info": "https://x.com/shopify"
         },
         "social_facebook_link": {
@@ -88,6 +89,41 @@
         "social_vimeo_link": {
           "label": "Vimeo",
           "info": "https://vimeo.com/shopify"
+=======
+          "info": "https:\/\/x.com\/shopify"
+        },
+        "social_facebook_link": {
+          "label": "Facebook",
+          "info": "https:\/\/facebook.com\/shopify"
+        },
+        "social_pinterest_link": {
+          "label": "Pinterest",
+          "info": "https:\/\/facebook.com\/shopify"
+        },
+        "social_instagram_link": {
+          "label": "Instagram",
+          "info": "https:\/\/instagram.com\/shopify"
+        },
+        "social_tiktok_link": {
+          "label": "TikTok",
+          "info": "https:\/\/twitter.com\/shopify"
+        },
+        "social_tumblr_link": {
+          "label": "Tumblr",
+          "info": "http:\/\/shopify.tumblr.com"
+        },
+        "social_snapchat_link": {
+          "label": "Snapchat",
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
+        },
+        "social_youtube_link": {
+          "label": "YouTube",
+          "info": "https:\/\/facebook.com\/shopify"
+        },
+        "social_vimeo_link": {
+          "label": "Vimeo",
+          "info": "https:\/\/vimeo.com\/shopify"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "header": {
           "content": "Sosiaalisen median tilit"
@@ -230,7 +266,11 @@
     },
     "variant_pills": {
       "name": "Versioiden kuvakkeet",
+<<<<<<< HEAD
       "paragraph": "Versiokuvakkeet ovat yksi tapa näyttää [tuoteversiot](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types/product-pages#variant-picker-block)"
+=======
+      "paragraph": "Versiokuvakkeet ovat yksi tapa näyttää [tuoteversiot](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types\/product-pages#variant-picker-block)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
     },
     "inputs": {
       "name": "Syötteet"
@@ -476,6 +516,7 @@
         },
         "show_social": {
           "label": "Somekuvakkeet",
+<<<<<<< HEAD
           "info": "[Hallinnoi sometilejä](/editor?context=theme&category=social%20media)"
         },
         "enable_country_selector": {
@@ -485,6 +526,17 @@
         "enable_language_selector": {
           "label": "Kielivalitsin",
           "info": "[Hallinnoi kieliä](/admin/settings/languages)"
+=======
+          "info": "[Hallinnoi sometilejä](\/editor?context=theme&category=social%20media)"
+        },
+        "enable_country_selector": {
+          "label": "Maa-\/aluevalitsin",
+          "info": "[Hallinnoi maita\/alueita](\/admin\/settings\/markets)"
+        },
+        "enable_language_selector": {
+          "label": "Kielivalitsin",
+          "info": "[Hallinnoi kieliä](\/admin\/settings\/languages)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "heading_utilities": {
           "content": "Apuohjelmat"
@@ -524,7 +576,11 @@
         },
         "card_styles": {
           "label": "Kortin tyyli",
+<<<<<<< HEAD
           "info": "Hallinnoi yksittäisiä korttityylejä [teema-asetuksissa](/editor?context=theme&category=product%20cards)",
+=======
+          "info": "Hallinnoi yksittäisiä korttityylejä [teema-asetuksissa](\/editor?context=theme&category=product%20cards)",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
           "options__1": {
             "label": "Käytä yksittäisiä korttityylejä"
           },
@@ -580,7 +636,11 @@
             },
             "description": {
               "label": "Videon vaihtoehtoinen teksti",
+<<<<<<< HEAD
               "info": "Kuvaile videota näytönlukijoita käyttäviä asiakkaita varten. [Lisätietoja](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#video-block)",
+=======
+              "info": "Kuvaile videota näytönlukijoita käyttäviä asiakkaita varten. [Lisätietoja](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#video-block)",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
               "default": "Kuvaile videota"
             }
           }
@@ -666,7 +726,11 @@
       "settings": {
         "custom_liquid": {
           "label": "Liquid-koodi",
+<<<<<<< HEAD
           "info": "Luo vaativampia mukautuksia lisäämällä sovelluksen koodinpätkiä tai muita koodeja. [Lisätietoja](https://shopify.dev/docs/api/liquid)"
+=======
+          "info": "Luo vaativampia mukautuksia lisäämällä sovelluksen koodinpätkiä tai muita koodeja. [Lisätietoja](https:\/\/shopify.dev\/docs\/api\/liquid)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         }
       },
       "presets": {
@@ -753,7 +817,11 @@
         },
         "show_rating": {
           "label": "Tuotearvio",
+<<<<<<< HEAD
           "info": "Arviot edellyttävät sovellusta. [Lue lisää:](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-collection-show-product-rating)"
+=======
+          "info": "Arviot edellyttävät sovellusta. [Lue lisää:](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#featured-collection-show-product-rating)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "columns_desktop": {
           "label": "Sarakkeet"
@@ -847,7 +915,11 @@
             },
             "subtext": {
               "label": "Alateksti",
+<<<<<<< HEAD
               "default": "<p>Jaa asiakkaillesi yhteystiedot, kaupan tiedot ja brändin sisältöä.</p>"
+=======
+              "default": "<p>Jaa asiakkaillesi yhteystiedot, kaupan tiedot ja brändin sisältöä.<\/p>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           }
         },
@@ -855,11 +927,19 @@
           "name": "Bränditiedot",
           "settings": {
             "paragraph": {
+<<<<<<< HEAD
               "content": "Hallinnoi bränditietoja [teema-asetuksissa](/editor?context=theme&category=brand%20information)"
             },
             "show_social": {
               "label": "Somekuvakkeet",
               "info": "[Hallinnoi sometilejä](/editor?context=theme&category=social%20media)"
+=======
+              "content": "Hallinnoi bränditietoja [teema-asetuksissa](\/editor?context=theme&category=brand%20information)"
+            },
+            "show_social": {
+              "label": "Somekuvakkeet",
+              "info": "[Hallinnoi sometilejä](\/editor?context=theme&category=social%20media)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           }
         }
@@ -874,6 +954,7 @@
         },
         "header__1": {
           "content": "Sähköpostirekisteröityminen",
+<<<<<<< HEAD
           "info": "Rekisteröitymiset lisäävät [asiakasprofiilit](https://help.shopify.com/manual/customers/manage-customers)"
         },
         "show_social": {
@@ -887,6 +968,21 @@
         "enable_language_selector": {
           "label": "Kielivalitsin",
           "info": "[Hallinnoi kieliä](/admin/settings/languages)"
+=======
+          "info": "Rekisteröitymiset lisäävät [asiakasprofiilit](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
+        },
+        "show_social": {
+          "label": "Somekuvakkeet",
+          "info": "[Hallinnoi sometilejä](\/editor?context=theme&category=social%20media)"
+        },
+        "enable_country_selector": {
+          "label": "Maa-\/aluevalitsin",
+          "info": "[Hallinnoi maita\/alueita](\/admin\/settings\/markets)"
+        },
+        "enable_language_selector": {
+          "label": "Kielivalitsin",
+          "info": "[Hallinnoi kieliä](\/admin\/settings\/languages)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "payment_enable": {
           "label": "Maksutapakuvakkeet"
@@ -896,14 +992,22 @@
         },
         "show_policy": {
           "label": "Käytäntöjen linkit",
+<<<<<<< HEAD
           "info": "[Hallinnoi käytäntöjä](/admin/settings/legal)"
+=======
+          "info": "[Hallinnoi käytäntöjä](\/admin\/settings\/legal)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "header__9": {
           "content": "Apuohjelmat"
         },
         "enable_follow_on_shop": {
           "label": "Seuraa Shopissa",
+<<<<<<< HEAD
           "info": "Shop Payn täytyy olla käytössä [Lue lisää:](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+=======
+          "info": "Shop Payn täytyy olla käytössä [Lue lisää:](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         }
       }
     },
@@ -956,7 +1060,11 @@
           }
         },
         "logo_help": {
+<<<<<<< HEAD
           "content": "Muokkaa logoa [teeman asetuksissa](/editor?context=theme&category=logo)"
+=======
+          "content": "Muokkaa logoa [teeman asetuksissa](\/editor?context=theme&category=logo)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "sticky_header_type": {
           "label": "Paikallaan pysyvä ylätunniste",
@@ -974,12 +1082,21 @@
           }
         },
         "enable_country_selector": {
+<<<<<<< HEAD
           "label": "Maa-/aluevalitsin",
           "info": "[Hallinnoi maita/alueita](/admin/settings/markets)"
         },
         "enable_language_selector": {
           "label": "Kielivalitsin",
           "info": "[Hallinnoi kieliä](/admin/settings/languages)"
+=======
+          "label": "Maa-\/aluevalitsin",
+          "info": "[Hallinnoi maita\/alueita](\/admin\/settings\/markets)"
+        },
+        "enable_language_selector": {
+          "label": "Kielivalitsin",
+          "info": "[Hallinnoi kieliä](\/admin\/settings\/languages)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "header__1": {
           "content": "Väri"
@@ -989,7 +1106,11 @@
         },
         "enable_customer_avatar": {
           "label": "Asiakastilin avatar",
+<<<<<<< HEAD
           "info": "Näkyvissä vain, kun asiakkaat ovat kirjautuneet Shopiin. [Hallinnoi asiakastilejä](/admin/settings/customer_accounts)"
+=======
+          "info": "Näkyvissä vain, kun asiakkaat ovat kirjautuneet Shopiin. [Hallinnoi asiakastilejä](\/admin\/settings\/customer_accounts)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "header__utilities": {
           "content": "Apuohjelmat"
@@ -1271,7 +1392,11 @@
           "settings": {
             "text": {
               "label": "Teksti",
+<<<<<<< HEAD
               "default": "<p>Korosta valitsemaasi tuotetta, kokoelmaa tai blogipostausta lisäämällä kuvaan teksti. Lisää tietoa saatavuudesta tai tyylistä tai näytä vaikkapa arvostelu.</p>"
+=======
+              "default": "<p>Korosta valitsemaasi tuotetta, kokoelmaa tai blogipostausta lisäämällä kuvaan teksti. Lisää tietoa saatavuudesta tai tyylistä tai näytä vaikkapa arvostelu.<\/p>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             },
             "text_style": {
               "label": "Tyyli",
@@ -1439,7 +1564,11 @@
       "name": "Kokoelmabanneri",
       "settings": {
         "paragraph": {
+<<<<<<< HEAD
           "content": "Kokoelman tietoja [hallinnoidaan Adminissa](https://help.shopify.com/manual/products/collections/collection-layout)"
+=======
+          "content": "Kokoelman tietoja [hallinnoidaan Adminissa](https:\/\/help.shopify.com\/manual\/products\/collections\/collection-layout)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "show_collection_description": {
           "label": "Kuvaus"
@@ -1475,11 +1604,19 @@
         },
         "enable_tags": {
           "label": "Suodattimet",
+<<<<<<< HEAD
           "info": "Mukauta suodattimia [Search & Discovery ‑sovelluksella](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
         },
         "enable_filtering": {
           "label": "Suodattimet",
           "info": "Mukauta suodattimia [Search & Discovery ‑sovelluksella](https://help.shopify.com/manual/online-store/search-and-discovery/filters)"
+=======
+          "info": "Mukauta suodattimia [Search & Discovery ‑sovelluksella](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
+        },
+        "enable_filtering": {
+          "label": "Suodattimet",
+          "info": "Mukauta suodattimia [Search & Discovery ‑sovelluksella](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "enable_sorting": {
           "label": "Lajittelu"
@@ -1492,7 +1629,11 @@
         },
         "show_rating": {
           "label": "Tuotearvio",
+<<<<<<< HEAD
           "info": "Tuotearviot edellyttävät sovellusta. [Lue lisää:](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types/collection-pages#product-grid-show-product-rating)"
+=======
+          "info": "Tuotearviot edellyttävät sovellusta. [Lue lisää:](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types\/collection-pages#product-grid-show-product-rating)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "columns_desktop": {
           "label": "Sarakkeet"
@@ -1595,7 +1736,11 @@
       "name": "Salasanaylätunniste",
       "settings": {
         "logo_help": {
+<<<<<<< HEAD
           "content": "Muokkaa logoa [teeman asetuksissa](/editor?context=theme&category=logo)"
+=======
+          "content": "Muokkaa logoa [teeman asetuksissa](\/editor?context=theme&category=logo)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         }
       }
     },
@@ -1645,7 +1790,11 @@
             },
             "swatch_shape": {
               "label": "Väriruutu",
+<<<<<<< HEAD
               "info": "Lue lisää tuotevaihtoehtojen [väriruuduista](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-settings#options-with-swatches)",
+=======
+              "info": "Lue lisää tuotevaihtoehtojen [väriruuduista](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/theme-settings#options-with-swatches)",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
               "options__1": {
                 "label": "Ympyrä"
               },
@@ -1663,11 +1812,19 @@
           "settings": {
             "show_dynamic_checkout": {
               "label": "Dynaamiset kassapainikkeet",
+<<<<<<< HEAD
               "info": "Asiakkaat näkevät ensisijaisen maksutapansa. [Lue lisää:](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
             },
             "show_gift_card_recipient": {
               "label": " Lahjakortin lähetysasetukset",
               "info": "Asiakkaat voivat lisätä henkilökohtaisen viestin ja sopia lähetyspäivän. [Lue lisää:](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+=======
+              "info": "Asiakkaat näkevät ensisijaisen maksutapansa. [Lue lisää:](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+            },
+            "show_gift_card_recipient": {
+              "label": " Lahjakortin lähetysasetukset",
+              "info": "Asiakkaat voivat lisätä henkilökohtaisen viestin ja sopia lähetyspäivän. [Lue lisää:](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           }
         },
@@ -1852,7 +2009,11 @@
           "name": "Tuotearvio",
           "settings": {
             "paragraph": {
+<<<<<<< HEAD
               "content": "Tuotearviot edellyttävät sovellusta. [Lue lisää:](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types/product-pages#product-rating-block)"
+=======
+              "content": "Tuotearviot edellyttävät sovellusta. [Lue lisää:](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types\/product-pages#product-rating-block)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           }
         },
@@ -1860,7 +2021,11 @@
           "name": "Täydentävät tuotteet",
           "settings": {
             "paragraph": {
+<<<<<<< HEAD
               "content": "Hallinnoi täydentäviä tuotteita [Search & Discovery ‑sovelluksessa](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)"
+=======
+              "content": "Hallinnoi täydentäviä tuotteita [Search & Discovery ‑sovelluksessa](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             },
             "heading": {
               "label": "Otsikko",
@@ -2122,7 +2287,11 @@
         },
         "show_rating": {
           "label": "Tuotearvio",
+<<<<<<< HEAD
           "info": "Tuotearviot edellyttävät sovellusta. [Lue lisää:](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types/search-page)"
+=======
+          "info": "Tuotearviot edellyttävät sovellusta. [Lue lisää:](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/page-types\/search-page)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "columns_desktop": {
           "label": "Sarakkeet"
@@ -2242,7 +2411,11 @@
             },
             "text": {
               "label": "Kuvaus",
+<<<<<<< HEAD
               "default": "<p>Korosta valitsemaasi tuotetta, kokoelmaa tai blogipostausta lisäämällä kuvaan teksti. Lisää tietoa saatavuudesta tai tyylistä tai näytä vaikkapa arvostelu.</p>"
+=======
+              "default": "<p>Korosta valitsemaasi tuotetta, kokoelmaa tai blogipostausta lisäämällä kuvaan teksti. Lisää tietoa saatavuudesta tai tyylistä tai näytä vaikkapa arvostelu.<\/p>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             },
             "link_label": {
               "label": "Linkin teksti",
@@ -2265,7 +2438,11 @@
           "label": "Täysi leveys"
         },
         "paragraph": {
+<<<<<<< HEAD
           "content": "Rekisteröitymiset lisäävät [asiakasprofiilit](https://help.shopify.com/manual/customers/manage-customers)"
+=======
+          "content": "Rekisteröitymiset lisäävät [asiakasprofiilit](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         }
       },
       "blocks": {
@@ -2283,7 +2460,11 @@
           "settings": {
             "paragraph": {
               "label": "Teksti",
+<<<<<<< HEAD
               "default": "<p>Saa ensimmäisten joukossa tietoa uusista kokoelmista ja ainutlaatuisista tarjouksista.</p>"
+=======
+              "default": "<p>Saa ensimmäisten joukossa tietoa uusista kokoelmista ja ainutlaatuisista tarjouksista.<\/p>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           }
         },
@@ -2352,7 +2533,11 @@
           "settings": {
             "text": {
               "label": "Teksti",
+<<<<<<< HEAD
               "default": "<p>Kerro brändiäsi koskevia tietoja asiakkaillesi. Kuvaile tuotetta, jaa ilmoituksia tai toivota asiakkaat tervetulleiksi kauppaasi.</p>"
+=======
+              "default": "<p>Kerro brändiäsi koskevia tietoja asiakkaillesi. Kuvaile tuotetta, jaa ilmoituksia tai toivota asiakkaat tervetulleiksi kauppaasi.<\/p>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           }
         },
@@ -2529,7 +2714,11 @@
             },
             "swatch_shape": {
               "label": "Väriruutu",
+<<<<<<< HEAD
               "info": "Lue lisää tuotevaihtoehtojen [väriruuduista](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-settings#options-with-swatches)",
+=======
+              "info": "Lue lisää tuotevaihtoehtojen [väriruuduista](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/theme-settings#options-with-swatches)",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
               "options__1": {
                 "label": "Ympyrä"
               },
@@ -2547,7 +2736,11 @@
           "settings": {
             "show_dynamic_checkout": {
               "label": "Dynaamiset kassapainikkeet",
+<<<<<<< HEAD
               "info": "Asiakkaat näkevät ensisijaisen maksutapansa. [Lue lisää:](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
+=======
+              "info": "Asiakkaat näkevät ensisijaisen maksutapansa. [Lue lisää:](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           }
         },
@@ -2558,10 +2751,17 @@
           "name": "Jaa",
           "settings": {
             "featured_image_info": {
+<<<<<<< HEAD
               "content": "Jos lisäät sosiaalisen median julkaisuihin linkkejä, esikatselukuvana näkyy sivun esittelykuva. [Lisätietoja](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)"
             },
             "title_info": {
               "content": "Esikatselukuvassa näkyy kaupan nimi ja kuvaus. [Lisätietoja](https://help.shopify.com/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)"
+=======
+              "content": "Jos lisäät sosiaalisen median julkaisuihin linkkejä, esikatselukuvana näkyy sivun esittelykuva. [Lisätietoja](https:\/\/help.shopify.com\/manual\/online-store\/images\/showing-social-media-thumbnail-images)"
+            },
+            "title_info": {
+              "content": "Esikatselukuvassa näkyy kaupan nimi ja kuvaus. [Lisätietoja](https:\/\/help.shopify.com\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             },
             "text": {
               "label": "Teksti",
@@ -2573,7 +2773,11 @@
           "name": "Tuotearvio",
           "settings": {
             "paragraph": {
+<<<<<<< HEAD
               "content": "Tuotearviot edellyttävät sovellusta. [Lue lisää:](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-product-rating)"
+=======
+              "content": "Tuotearviot edellyttävät sovellusta. [Lue lisää:](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#featured-product-rating)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             }
           }
         },
@@ -2630,7 +2834,11 @@
       "name": "Sähköpostirekisteröitymisen banneri",
       "settings": {
         "paragraph": {
+<<<<<<< HEAD
           "content": "Rekisteröitymiset lisäävät [asiakasprofiilit](https://help.shopify.com/manual/customers/manage-customers)"
+=======
+          "content": "Rekisteröitymiset lisäävät [asiakasprofiilit](https:\/\/help.shopify.com\/manual\/customers\/manage-customers)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "image": {
           "label": "Taustakuva"
@@ -2741,7 +2949,11 @@
           "settings": {
             "paragraph": {
               "label": "Teksti",
+<<<<<<< HEAD
               "default": "<p>Saa tietoa avaamisesta ensimmäisten joukossa.</p>"
+=======
+              "default": "<p>Saa tietoa avaamisesta ensimmäisten joukossa.<\/p>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             },
             "text_style": {
               "options__1": {
@@ -3192,7 +3404,11 @@
           "label": "Sarakkeet"
         },
         "paragraph__1": {
+<<<<<<< HEAD
           "content": "Liittyviä tuotteita voi hallinnoida [Search & Discovery ‑sovelluksessa](https://help.shopify.com/manual/online-store/search-and-discovery/product-recommendations)",
+=======
+          "content": "Liittyviä tuotteita voi hallinnoida [Search & Discovery ‑sovelluksessa](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/product-recommendations)",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
           "default": "Saatat pitää myös näistä"
         },
         "header__2": {
@@ -3218,7 +3434,11 @@
         },
         "show_rating": {
           "label": "Tuotearvio",
+<<<<<<< HEAD
           "info": "Tuotearviot edellyttävät sovellusta. [Lue lisää:](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-product-recommendations)"
+=======
+          "info": "Tuotearviot edellyttävät sovellusta. [Lue lisää:](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-product-recommendations)"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         },
         "columns_mobile": {
           "label": "Mobiilisarakkeet",
@@ -3363,7 +3583,11 @@
             },
             "text": {
               "label": "Teksti",
+<<<<<<< HEAD
               "default": "<p>Korosta valitsemaasi tuotetta, kokoelmaa tai blogipostausta lisäämällä kuvaan teksti. Lisää tietoa saatavuudesta tai tyylistä tai näytä vaikkapa arvostelu.</p>"
+=======
+              "default": "<p>Korosta valitsemaasi tuotetta, kokoelmaa tai blogipostausta lisäämällä kuvaan teksti. Lisää tietoa saatavuudesta tai tyylistä tai näytä vaikkapa arvostelu.<\/p>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
             },
             "button_label": {
               "label": "Tekstipainike",

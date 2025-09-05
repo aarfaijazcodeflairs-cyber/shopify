@@ -7,7 +7,11 @@
       "login_form_password_placeholder": "รหัสผ่านของคุณ",
       "login_form_error": "รหัสผ่านผิดพลาด!",
       "login_form_submit": "ป้อน",
+<<<<<<< HEAD
       "admin_link_html": "คุณเป็นเจ้าของร้านใช่ไหม <a href=\"/admin\" class=\"link underlined-link\">เข้าสู่ระบบที่นี่</a>",
+=======
+      "admin_link_html": "คุณเป็นเจ้าของร้านใช่ไหม <a href=\"\/admin\" class=\"link underlined-link\">เข้าสู่ระบบที่นี่<\/a>",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       "powered_by_shopify_html": "ร้านค้านี้จะได้รับการสนับสนุนจาก {{ shopify }}"
     },
     "social": {
@@ -117,7 +121,11 @@
         "minimum_of": "จำนวนต่ำสุดของ {{ quantity }}",
         "maximum_of": "จำนวนสูงสุดของ {{ quantity }}",
         "multiples_of": "เพิ่มขึ้นได้ทีละ {{ quantity }}",
+<<<<<<< HEAD
         "in_cart_html": "จำนวน <span class=\"quantity-cart\">{{ quantity }}</span> ในตะกร้าสินค้า",
+=======
+        "in_cart_html": "จำนวน <span class=\"quantity-cart\">{{ quantity }}<\/span> ในตะกร้าสินค้า",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         "note": "ดูกฎเกี่ยวกับจำนวน",
         "min_of": "ต่ำสุด {{ quantity }} รายการ",
         "max_of": "สูงสุด {{ quantity }} รายการ",
@@ -140,8 +148,13 @@
         "view_store_info": "ดูข้อมูลร้านค้า",
         "check_other_stores": "ตรวจสอบความพร้อมที่ร้านค้าอื่นๆ",
         "pick_up_available": "การรับสินค้าด้วยตนเองพร้อมให้บริการ",
+<<<<<<< HEAD
         "pick_up_available_at_html": "รับสินค้าด้วยตนเองได้ที่ <span class=\"color-foreground\">{{ location_name }}</span>",
         "pick_up_unavailable_at_html": "การรับสินค้าด้วยตนเองที่ <span class=\"color-foreground\">{{ location_name }}</span> ยังไม่พร้อมให้บริการในขณะนี้",
+=======
+        "pick_up_available_at_html": "รับสินค้าด้วยตนเองได้ที่ <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "การรับสินค้าด้วยตนเองที่ <span class=\"color-foreground\">{{ location_name }}<\/span> ยังไม่พร้อมให้บริการในขณะนี้",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         "unavailable": "ไม่สามารถโหลดความพร้อมในการรับสินค้าด้วยตนเองได้",
         "refresh": "รีเฟรช"
       },
@@ -157,7 +170,11 @@
       },
       "nested_label": "{{ title }} สำหรับ {{ parent_title }}",
       "view_full_details": "ดูรายละเอียดทั้งหมด",
+<<<<<<< HEAD
       "shipping_policy_html": "<a href=\"{{ link }}\">ค่าจัดส่ง</a>ที่คำนวณในขั้นตอนการชำระเงิน",
+=======
+      "shipping_policy_html": "<a href=\"{{ link }}\">ค่าจัดส่ง<\/a>ที่คำนวณในขั้นตอนการชำระเงิน",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       "choose_options": "เลือกตัวเลือก",
       "choose_product_options": "เลือกตัวเลือกสำหรับ {{ product_name }}",
       "value_unavailable": "{{ option_value }} ไม่พร้อมจำหน่าย",
@@ -174,7 +191,11 @@
         "note": "การกำหนดราคาตามปริมาณพร้อมใช้งาน",
         "minimum": "{{ quantity }}+",
         "price_range": "{{ minimum }} - {{ maximum }}",
+<<<<<<< HEAD
         "price_at_each_html": "ราคา {{ price }}/หน่วย"
+=======
+        "price_at_each_html": "ราคา {{ price }}\/หน่วย"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       },
       "product_variants": "ตัวเลือกสินค้า",
       "taxes_included": "รวมภาษีแล้ว",
@@ -294,6 +315,7 @@
       "update": "อัปเดต",
       "login": {
         "title": "มีบัญชีผู้ใช้อยู่แล้วใช่หรือไม่",
+<<<<<<< HEAD
         "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">เข้าสู่ระบบ</a>เพื่อชำระเงินให้รวดเร็วยิ่งขึ้น"
       },
       "estimated_total": "ยอดทั้งหมดโดยประมาณ",
@@ -305,6 +327,19 @@
       "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "รวมอากรแล้ว ระบบจะคำนวณภาษี ส่วนลด และ<a href=\"{{ link }}\">ค่าจัดส่ง</a>ในขั้นตอนการชำระเงิน",
       "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "รวมอากรแล้ว ระบบจะคำนวณภาษี ส่วนลด และค่าจัดส่งในขั้นตอนการชำระเงิน",
       "taxes_at_checkout_shipping_at_checkout_with_policy_html": "ระบบจะคำนวณภาษี ส่วนลด และ<a href=\"{{ link }}\">ค่าจัดส่ง</a>ในขั้นตอนการชำระเงิน",
+=======
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">เข้าสู่ระบบ<\/a>เพื่อชำระเงินให้รวดเร็วยิ่งขึ้น"
+      },
+      "estimated_total": "ยอดทั้งหมดโดยประมาณ",
+      "new_estimated_total": "ยอดรวมโดยประมาณใหม่",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "รวมภาษีและอากรแล้ว ระบบจะคำนวณส่วนลดและ<a href=\"{{ link }}\">ค่าจัดส่ง<\/a>ในขั้นตอนการชำระเงิน",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "รวมภาษีและอากรแล้ว ระบบจะคำนวณส่วนลดและค่าจัดส่งในขั้นตอนการชำระเงิน",
+      "taxes_included_shipping_at_checkout_with_policy_html": "รวมภาษีแล้ว ระบบจะคำนวณส่วนลดและ<a href=\"{{ link }}\">ค่าจัดส่ง<\/a>ในขั้นตอนการชำระเงิน",
+      "taxes_included_shipping_at_checkout_without_policy": "รวมภาษีแล้ว ระบบจะคำนวณส่วนลดและค่าจัดส่งในขั้นตอนการชำระเงิน",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "รวมอากรแล้ว ระบบจะคำนวณภาษี ส่วนลด และ<a href=\"{{ link }}\">ค่าจัดส่ง<\/a>ในขั้นตอนการชำระเงิน",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "รวมอากรแล้ว ระบบจะคำนวณภาษี ส่วนลด และค่าจัดส่งในขั้นตอนการชำระเงิน",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "ระบบจะคำนวณภาษี ส่วนลด และ<a href=\"{{ link }}\">ค่าจัดส่ง<\/a>ในขั้นตอนการชำระเงิน",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       "taxes_at_checkout_shipping_at_checkout_without_policy": "ระบบจะคำนวณภาษี ส่วนลด และค่าจัดส่งในขั้นตอนการชำระเงิน"
     },
     "footer": {
@@ -325,7 +360,11 @@
     "collection_template": {
       "title": "คอลเลกชัน",
       "empty": "ไม่พบสินค้า",
+<<<<<<< HEAD
       "use_fewer_filters_html": "ใช้ตัวกรองให้น้อยลง หรือ<a class=\"{{ class }}\" href=\"{{ link }}\">ลบทั้งหมด</a>"
+=======
+      "use_fewer_filters_html": "ใช้ตัวกรองให้น้อยลง หรือ<a class=\"{{ class }}\" href=\"{{ link }}\">ลบทั้งหมด<\/a>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
     },
     "video": {
       "load_video": "โหลดวิดีโอ: {{ description }}"
@@ -352,7 +391,11 @@
     "quick_order_list": {
       "product_total": "ยอดรวมสินค้า",
       "view_cart": "ดูตะกร้าสินค้า",
+<<<<<<< HEAD
       "each": "{{ money }}/หน่วย",
+=======
+      "each": "{{ money }}\/หน่วย",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       "product": "สินค้า",
       "variant": "ตัวเลือกสินค้า",
       "variant_total": "ยอดรวมของตัวเลือกสินค้า",
@@ -376,6 +419,7 @@
     }
   },
   "localization": {
+<<<<<<< HEAD
     "country_label": "ประเทศ/ภูมิภาค",
     "language_label": "ภาษา",
     "update_language": "อัปเดตภาษา",
@@ -383,6 +427,15 @@
     "search": "ค้นหา",
     "popular_countries_regions": "ประเทศ/ภูมิภาคยอดนิยม",
     "country_results_count": "พบประเทศ/ภูมิภาค {{ count }} แห่ง"
+=======
+    "country_label": "ประเทศ\/ภูมิภาค",
+    "language_label": "ภาษา",
+    "update_language": "อัปเดตภาษา",
+    "update_country": "อัปเดตประเทศ\/ภูมิภาค",
+    "search": "ค้นหา",
+    "popular_countries_regions": "ประเทศ\/ภูมิภาคยอดนิยม",
+    "country_results_count": "พบประเทศ\/ภูมิภาค {{ count }} แห่ง"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
   },
   "customer": {
     "account": {
@@ -411,9 +464,15 @@
       "address1": "ที่อยู่ 1",
       "address2": "ที่อยู่ 2",
       "city": "เมือง",
+<<<<<<< HEAD
       "country": "ประเทศ/ภูมิภาค",
       "province": "จังหวัด",
       "zip": "รหัสไปรษณีย์/ZIP",
+=======
+      "country": "ประเทศ\/ภูมิภาค",
+      "province": "จังหวัด",
+      "zip": "รหัสไปรษณีย์\/ZIP",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       "phone": "โทรศัพท์",
       "set_default": "ตั้งเป็นที่อยู่เริ่มต้น",
       "add": "เพิ่มที่อยู่",

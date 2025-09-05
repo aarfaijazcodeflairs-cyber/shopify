@@ -7,7 +7,11 @@
       "login_form_password_placeholder": "Sua senha",
       "login_form_error": "Senha incorreta.",
       "login_form_submit": "Entrar",
+<<<<<<< HEAD
       "admin_link_html": "Você é o titular da loja? <a href=\"/admin\" class=\"link underlined-link\">Faça login aqui</a>",
+=======
+      "admin_link_html": "Você é o titular da loja? <a href=\"\/admin\" class=\"link underlined-link\">Faça login aqui<\/a>",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       "powered_by_shopify_html": "Esta loja terá a tecnologia da {{ shopify }}"
     },
     "social": {
@@ -118,7 +122,11 @@
         "minimum_of": "Mínimo de {{ quantity }}",
         "maximum_of": "Máximo de {{ quantity }}",
         "multiples_of": "Pacote com {{ quantity }}",
+<<<<<<< HEAD
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> no carrinho",
+=======
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> no carrinho",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         "note": "Ver regras de quantidade",
         "min_of": "Mínimo de {{ quantity }}",
         "max_of": "Máximo de {{ quantity }}",
@@ -141,8 +149,13 @@
         "view_store_info": "Ver as informações da loja",
         "check_other_stores": "Verificar a disponibilidade em outras lojas",
         "pick_up_available": "Retirada disponível",
+<<<<<<< HEAD
         "pick_up_available_at_html": "Retirada disponível em <span class=\"color-foreground\">{{ location_name }}</span>",
         "pick_up_unavailable_at_html": "Retirada em <span class=\"color-foreground\">{{ location_name }}</span> indisponível no momento",
+=======
+        "pick_up_available_at_html": "Retirada disponível em <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Retirada em <span class=\"color-foreground\">{{ location_name }}<\/span> indisponível no momento",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         "unavailable": "Não foi possível carregar a disponibilidade de retirada.",
         "refresh": "Atualizar"
       },
@@ -158,7 +171,11 @@
       },
       "nested_label": "{{ title }} para {{ parent_title }}",
       "view_full_details": "Ver informações completas",
+<<<<<<< HEAD
       "shipping_policy_html": "<a href=\"{{ link }}\">Frete</a> calculado no checkout.",
+=======
+      "shipping_policy_html": "<a href=\"{{ link }}\">Frete<\/a> calculado no checkout.",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       "choose_options": "Escolher opções",
       "choose_product_options": "Escolha opções para {{ product_name }}",
       "value_unavailable": "{{ option_value }} – indisponível",
@@ -175,7 +192,11 @@
         "note": "Os preços por volume estão disponíveis",
         "minimum": "Mais de {{ quantity }}",
         "price_range": "{{ minimum }} – {{ maximum }}",
+<<<<<<< HEAD
         "price_at_each_html": "{{ price }}/cada"
+=======
+        "price_at_each_html": "{{ price }}\/cada"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       },
       "product_variants": "Variantes do produto",
       "taxes_included": "Tributos incluídos.",
@@ -304,6 +325,7 @@
       "update": "Atualizar",
       "login": {
         "title": "Tem uma conta?",
+<<<<<<< HEAD
         "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Faça login</a> para finalizar a compra com mais rapidez."
       },
       "estimated_total": "Total estimado",
@@ -315,6 +337,19 @@
       "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Tributos de importação incluídos. Tributos, descontos e <a href=\"{{ link }}\">frete</a> calculados no checkout.",
       "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Tributos de importação incluídos. Tributos, descontos e frete calculados no checkout.",
       "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Tributos, descontos e <a href=\"{{ link }}\">frete</a> calculados no checkout.",
+=======
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Faça login<\/a> para finalizar a compra com mais rapidez."
+      },
+      "estimated_total": "Total estimado",
+      "new_estimated_total": "Novo total estimado",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Tributos de importação e outros tributos incluídos. Descontos e <a href=\"{{ link }}\">frete<\/a> calculados no checkout.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Tributos de importação e outros tributos incluídos. Descontos e frete calculados no checkout.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Tributos incluídos. Descontos e <a href=\"{{ link }}\">frete<\/a> calculados no checkout.",
+      "taxes_included_shipping_at_checkout_without_policy": "Tributos incluídos. Descontos e frete calculados no checkout.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Tributos de importação incluídos. Tributos, descontos e <a href=\"{{ link }}\">frete<\/a> calculados no checkout.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Tributos de importação incluídos. Tributos, descontos e frete calculados no checkout.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Tributos, descontos e <a href=\"{{ link }}\">frete<\/a> calculados no checkout.",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       "taxes_at_checkout_shipping_at_checkout_without_policy": "Tributos, descontos e frete calculados no checkout."
     },
     "footer": {
@@ -335,7 +370,11 @@
     "collection_template": {
       "title": "Coleção",
       "empty": "Nenhum produto encontrado",
+<<<<<<< HEAD
       "use_fewer_filters_html": "Usar menos filtros ou <a class=\"{{ class }}\" href=\"{{ link }}\">remover tudo</a>"
+=======
+      "use_fewer_filters_html": "Usar menos filtros ou <a class=\"{{ class }}\" href=\"{{ link }}\">remover tudo<\/a>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
     },
     "video": {
       "load_video": "Carregar vídeo: {{ description }}"
@@ -362,7 +401,11 @@
     "quick_order_list": {
       "product_total": "Subtotal do produto",
       "view_cart": "Ver carrinho",
+<<<<<<< HEAD
       "each": "{{ money }}/cada",
+=======
+      "each": "{{ money }}\/cada",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       "product": "Produto",
       "variant": "Variante",
       "variant_total": "Total das variantes",
@@ -388,6 +431,7 @@
     }
   },
   "localization": {
+<<<<<<< HEAD
     "country_label": "País/Região",
     "language_label": "Idioma",
     "update_language": "Atualizar idioma",
@@ -395,6 +439,15 @@
     "search": "Pesquisar",
     "popular_countries_regions": "Países/regiões populares",
     "country_results_count": "{{ count }} países/regiões encontrados"
+=======
+    "country_label": "País\/Região",
+    "language_label": "Idioma",
+    "update_language": "Atualizar idioma",
+    "update_country": "Atualizar país\/região",
+    "search": "Pesquisar",
+    "popular_countries_regions": "Países\/regiões populares",
+    "country_results_count": "{{ count }} países\/regiões encontrados"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
   },
   "customer": {
     "account": {
@@ -423,7 +476,11 @@
       "address1": "Endereço 1",
       "address2": "Endereço 2",
       "city": "Cidade",
+<<<<<<< HEAD
       "country": "País/Região",
+=======
+      "country": "País\/Região",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       "province": "Província",
       "zip": "CEP",
       "phone": "Telefone",

@@ -7,7 +7,11 @@
       "login_form_password_placeholder": "Vaša lozinka",
       "login_form_error": "Pogrešna lozinka!",
       "login_form_submit": "Unesi",
+<<<<<<< HEAD
       "admin_link_html": "Jeste li vlasnik/vlasnica trgovine? <a href=\"/admin\" class=\"link underlined-link\">Prijavite se ovdje</a>",
+=======
+      "admin_link_html": "Jeste li vlasnik\/vlasnica trgovine? <a href=\"\/admin\" class=\"link underlined-link\">Prijavite se ovdje<\/a>",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       "powered_by_shopify_html": "Ovu trgovinu pokreće {{ shopify }}"
     },
     "social": {
@@ -126,7 +130,11 @@
         "minimum_of": "Minimalno {{ quantity }}",
         "maximum_of": "Maksimalno {{ quantity }}",
         "multiples_of": "Povećanje od {{ quantity }}",
+<<<<<<< HEAD
         "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> u košarici",
+=======
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> u košarici",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         "note": "Prikaži pravila o količini",
         "min_of": "Min. {{ quantity }}",
         "max_of": "Maks. {{ quantity }}",
@@ -142,8 +150,13 @@
         "view_store_info": "Prikaži informacije o trgovini",
         "check_other_stores": "Provjeri dostupnost u drugim trgovinama",
         "pick_up_available": "Dostupno je preuzimanje",
+<<<<<<< HEAD
         "pick_up_available_at_html": "Preuzimanje je dostupno na lokaciji <span class=\"color-foreground\">{{ location_name }}</span>",
         "pick_up_unavailable_at_html": "Preuzimanje trenutačno nije dostupno na lokaciji <span class=\"color-foreground\">{{ location_name }}</span>",
+=======
+        "pick_up_available_at_html": "Preuzimanje je dostupno na lokaciji <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Preuzimanje trenutačno nije dostupno na lokaciji <span class=\"color-foreground\">{{ location_name }}<\/span>",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
         "unavailable": "Učitavanje dostupnosti preuzimanje nije moguće",
         "refresh": "Osvježi"
       },
@@ -159,7 +172,11 @@
       },
       "nested_label": "{{ title }} za {{ parent_title }}",
       "view_full_details": "Prikaži sve pojedinosti",
+<<<<<<< HEAD
       "shipping_policy_html": "<a href=\"{{ link }}\">Poštarina </a> se obračunava prilikom završetka kupnje.",
+=======
+      "shipping_policy_html": "<a href=\"{{ link }}\">Poštarina <\/a> se obračunava prilikom završetka kupnje.",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       "choose_options": "Odaberite opcije",
       "choose_product_options": "Odaberite željene opcije za {{ product_name }}",
       "value_unavailable": "{{ option_value }} – nedostupno",
@@ -176,7 +193,11 @@
         "note": "Dostupan je popust na količinu",
         "minimum": "Više od {{ quantity }}",
         "price_range": "{{ minimum }} – {{ maximum }}",
+<<<<<<< HEAD
         "price_at_each_html": "po cijeni od {{ price }}/ea"
+=======
+        "price_at_each_html": "po cijeni od {{ price }}\/ea"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       },
       "taxes_included": "Porezi su uključeni.",
       "duties_included": "Carina je uključena.",
@@ -304,6 +325,7 @@
       },
       "login": {
         "title": "Imate li račun?",
+<<<<<<< HEAD
         "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Prijavite se</a> za bržu provjeru."
       },
       "estimated_total": "Procijenjen ukupni iznos",
@@ -315,6 +337,19 @@
       "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Carina je uključena. Porezi, popusti i <a href=\"{{ link }}\">poštarina</a> obračunavaju se prilikom plaćanja.",
       "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Carina je uključena. Porezi, popusti i poštarina obračunavaju se prilikom plaćanja.",
       "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Porezi, popusti i <a href=\"{{ link }}\">poštarina</a> obračunavaju se prilikom plaćanja.",
+=======
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Prijavite se<\/a> za bržu provjeru."
+      },
+      "estimated_total": "Procijenjen ukupni iznos",
+      "new_estimated_total": "Novi procijenjeni ukupni iznos",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Carina i porezi su uključeni. Popusti i <a href=\"{{ link }}\">poštarina<\/a> obračunavaju se prilikom plaćanja.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Carina i porezi su uključeni. Popusti i poštarina obračunavaju se prilikom plaćanja.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Porezi su uključeni. Popusti i <a href=\"{{ link }}\">poštarina<\/a> obračunavaju se prilikom plaćanja.",
+      "taxes_included_shipping_at_checkout_without_policy": "Porezi su uključeni. Popusti i poštarina obračunavaju se prilikom plaćanja.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Carina je uključena. Porezi, popusti i <a href=\"{{ link }}\">poštarina<\/a> obračunavaju se prilikom plaćanja.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Carina je uključena. Porezi, popusti i poštarina obračunavaju se prilikom plaćanja.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Porezi, popusti i <a href=\"{{ link }}\">poštarina<\/a> obračunavaju se prilikom plaćanja.",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       "taxes_at_checkout_shipping_at_checkout_without_policy": "Porezi, popusti i poštarina obračunavaju se prilikom plaćanja."
     },
     "footer": {
@@ -335,7 +370,11 @@
     "collection_template": {
       "title": "Kolekcija",
       "empty": "Nije pronađen nijedan proizvod",
+<<<<<<< HEAD
       "use_fewer_filters_html": "Upotrijebi manje filtara ili <a class=\"{{ class }}\" href=\"{{ link }}\">ukloni sve</a>"
+=======
+      "use_fewer_filters_html": "Upotrijebi manje filtara ili <a class=\"{{ class }}\" href=\"{{ link }}\">ukloni sve<\/a>"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
     },
     "video": {
       "load_video": "Učitaj videozapis: {{ description }}"
@@ -388,6 +427,7 @@
     }
   },
   "localization": {
+<<<<<<< HEAD
     "country_label": "Država/regija",
     "language_label": "Jezik",
     "update_language": "Ažuriraj jezik",
@@ -395,6 +435,15 @@
     "search": "Traži",
     "popular_countries_regions": "Popularne zemlje/regije",
     "country_results_count": "Pronađen je sljedeći broj zemalja/regija: {{ count }}"
+=======
+    "country_label": "Država\/regija",
+    "language_label": "Jezik",
+    "update_language": "Ažuriraj jezik",
+    "update_country": "Ažuriraj državu\/regiju",
+    "search": "Traži",
+    "popular_countries_regions": "Popularne zemlje\/regije",
+    "country_results_count": "Pronađen je sljedeći broj zemalja\/regija: {{ count }}"
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
   },
   "customer": {
     "account": {
@@ -425,7 +474,11 @@
       "address1": "Adresa 1",
       "address2": "Adresa 2",
       "city": "Grad",
+<<<<<<< HEAD
       "country": "Država/regija",
+=======
+      "country": "Država\/regija",
+>>>>>>> eeb2bebadf31fe07d7d38d06237220f2bc99f427
       "province": "Pokrajina",
       "zip": "Poštanski broj",
       "phone": "Telefon",
