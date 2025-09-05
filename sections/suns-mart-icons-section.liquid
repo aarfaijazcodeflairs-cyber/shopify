@@ -1,0 +1,73 @@
+  <div  class="snus-mart-icon-main-section">
+        <div class="snus-mart-icon-paragraph1">
+            <p> {{section.settings.snus_mart_icon_section_text_1}} </p>
+        </div>
+
+        <div class="snus-mart-icon-headimage1">
+            <div class="snus-mart-icon-headimage1heading">
+        {{section.settings.snus_mart_icon_section_text_2}} 
+        </div>
+        <div  class="snus-mart-icon-headimage1image">
+       <img  src="{{section.settings.snus_mart_icon_section_image_1 |   img_url: 'medium'}}"> 
+       </div>
+        </div>
+       <div class="snus-mart-icon-paragraph2">
+            <p> {{section.settings.snus_mart_icon_section_text_3}} </p>
+        </div>
+          <div class="snus-mart-icon-image2" >
+       <img  src="{{section.settings.snus_mart_icon_section_image_2 |   img_url: 'medium'}}"> 
+        </div>
+
+    </div>
+
+{% schema %}
+{   "name": "snus mart icons",
+    "class": "snusmarticons",
+    "settings": [
+
+            { 
+            "type": "richtext",
+            "id": "snus_mart_icon_section_text_1",
+            "label": "Please enter text"
+            },
+             { 
+            "type": "richtext",
+            "id": "snus_mart_icon_section_text_2",
+            "label": "Please enter text"
+            },
+               { 
+            "type": "image_picker",
+            "id": "snus_mart_icon_section_image_1",
+            "label": "Please select image"
+            },
+              { 
+            "type": "richtext",
+            "id": "snus_mart_icon_section_text_3",
+            "label": "Please enter text"
+            },
+               { 
+            "type": "image_picker",
+            "id": "snus_mart_icon_section_image_2",
+            "label": "Please select image"
+            }
+        ],
+        "presets": [
+            { "name": "snus mart icons",
+                "settings": {
+                   
+                   "snus_mart_icon_section_text_1":"",
+                   "snus_mart_icon_section_text_2":"",
+                   "snus_mart_icon_section_image_1":"",
+                   "snus_mart_icon_section_text_3":"",
+                   "snus_mart_icon_section_image_2":""
+
+                }
+            
+
+
+            }
+
+
+        ]
+}
+{% endschema %}

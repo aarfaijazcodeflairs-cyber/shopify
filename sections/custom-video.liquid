@@ -1,0 +1,34 @@
+{% if section.settings.velo_video !=blank %}
+<div  class="custom-video-section">
+    {{ section.settings.velo_video 
+        | video_tag:
+      image_size: '1100px',
+      autoplay: true,
+      loop: true,
+      controls: false,
+      muted: true,
+      playsinline: true
+    }}
+
+</div>
+{% endif %}
+
+
+{% schema %}
+ { "name": "Custom Video",
+    "class": "custom-video",
+    "settings": [
+        {  "type": "video",
+            "id": "velo_video",
+            "label": "Video"
+        }
+    ],
+    "presets": [
+        { "name": "Custom Video"
+        }
+    ]
+    
+}
+
+
+{% endschema %}
